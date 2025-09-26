@@ -1,0 +1,6 @@
+# Cloudflare Pages 重定向配置
+# 处理 Next.js 路由
+/*    /index.html   200
+
+# API 路由重定向（如果需要）
+/api/*    /api/index.html   200
