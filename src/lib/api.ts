@@ -1,6 +1,6 @@
 // Strapi API 配置和类型定义
-export const STRAPI_API_URL = 'https://energized-dawn-75ac41de31.strapiapp.com'
-export const STRAPI_API_TOKEN = 'eb4477ce3f84462840281742ee5af41b9f30d671b7b8e13140eb3ae24eddef6f91f40612434fa6e9009fb476f5cb642725f5caa7e9ca364444a5c2c114a6c9ff853b9d3a5c6a5734021a1b350141610b9df36aff704bba0d1fb8e724ccaf3ac2addc95e2a0c4cb7db4be2f0690cb72eb186c812984cb239c2c968c03007fef9f'
+export const STRAPI_API_URL = process.env.STRAPI_API_URL || 'https://energized-dawn-75ac41de31.strapiapp.com'
+export const STRAPI_API_TOKEN = process.env.STRAPI_API_TOKEN || 'eb4477ce3f84462840281742ee5af41b9f30d671b7b8e13140eb3ae24eddef6f91f40612434fa6e9009fb476f5cb642725f5caa7e9ca364444a5c2c114a6c9ff853b9d3a5c6a5734021a1b350141610b9df36aff704bba0d1fb8e724ccaf3ac2addc95e2a0c4cb7db4be2f0690cb72eb186c812984cb239c2c968c03007fef9f'
 
 // 通用API响应类型
 export interface StrapiResponse<T> {
