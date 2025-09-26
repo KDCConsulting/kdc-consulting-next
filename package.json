@@ -22,7 +22,8 @@
     "deploy": "npm run build && npm run pm2:start",
     "build:cloudflare": "next build",
     "deploy:cloudflare": "npm run build:cloudflare && npx wrangler pages deploy ./out",
-    "deploy:pages-noop": "echo Skipping deploy step because Cloudflare Pages will publish the out directory"
+    "deploy:pages-noop": "echo Skipping deploy step because Cloudflare Pages will publish the out directory",
+    "deploy:static": "echo Static deployment completed - Cloudflare Pages will serve the out directory"
   },
   "dependencies": {
     "@headlessui/react": "^2.2.7",

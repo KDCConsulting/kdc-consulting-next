@@ -1,6 +1,5 @@
 # Cloudflare Pages 项目配置
-name = "zk-consulting"
-compatibility_date = "2024-01-01"
+# 注意：此文件仅用于 Pages 项目，不应包含 Workers 配置
 
 # Pages 构建输出目录
 pages_build_output_dir = "./out"
