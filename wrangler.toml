@@ -1,16 +1,11 @@
-name = "kz-consulting"
-compatibility_date = "2024-01-01"
-compatibility_flags = ["nodejs_compat"]
-
-# Pages 项目配置
-pages_build_output_dir = "./out"
+# Cloudflare Pages 项目配置
+# 注意：Pages 项目不需要 compatibility_flags
 
 # 环境变量配置
 [vars]
 NEXT_PUBLIC_SITE_URL = "https://kz-consulting.pages.dev"
 NEXT_PUBLIC_REVALIDATE_TIME = "600"
 
-# 生产环境变量（需要设置）
-# [env.production.vars]
-# STRAPI_API_URL = "https://your-strapi-url.com"
+# 生产环境变量（需要在 Cloudflare Dashboard 中设置）
+# STRAPI_API_URL = "https://energized-dawn-75ac41de31.strapiapp.com"
 # STRAPI_API_TOKEN = "your-token"
