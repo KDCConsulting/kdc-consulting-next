@@ -1,13 +1,13 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  // 注释掉静态导出，改为服务器端渲染
-  // output: 'export',
+  // 启用静态导出用于 Cloudflare Pages
+  output: 'export',
   
-  // 图片优化配置
+  // 图片优化配置 - 静态导出需要禁用优化
   images: {
     domains: ['energized-dawn-75ac41de31.media.strapiapp.com', 'www.kzconsulting.cn'],
-    unoptimized: false,
+    unoptimized: true, // 静态导出需要禁用图片优化
   },
   
   // 禁用ESLint检查（解决CSS文件中的表达式警告）
