@@ -22,7 +22,7 @@ git push origin main
 
 echo ✅ 推送完成！
 echo 🔄 GitHub Actions 将自动构建并部署到 Cloudflare Pages
-echo 🌐 部署完成后访问: https://kz-consulting.pages.dev
+echo 🌐 部署完成后访问: https://zk-consulting.pages.dev
 echo 📝 查看部署状态: https://github.com/KDCConsulting/kdc-consulting-next/actions
 
 pause

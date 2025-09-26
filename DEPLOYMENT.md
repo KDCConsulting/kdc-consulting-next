@@ -5,10 +5,10 @@
 ### 1. 在 Cloudflare 中设置环境变量
 
 1. 访问 [Cloudflare Pages](https://dash.cloudflare.com/pages)
-2. 选择您的项目 `kz-consulting`
+2. 选择您的项目 `zk-consulting`
 3. 进入 Settings > Environment variables
 4. 添加以下变量：
-   - `NEXT_PUBLIC_SITE_URL`: `https://kz-consulting.pages.dev`
+   - `NEXT_PUBLIC_SITE_URL`: `https://zk-consulting.pages.dev`
    - `NEXT_PUBLIC_REVALIDATE_TIME`: `600`
    - `STRAPI_API_URL`: `https://energized-dawn-75ac41de31.strapiapp.com`
    - `STRAPI_API_TOKEN`: 您的 Strapi API Token
@@ -33,7 +33,7 @@
 ## 访问地址
 
 部署完成后，网站将在以下地址可用：
-- **生产环境**: https://kz-consulting.pages.dev
+- **生产环境**: https://zk-consulting.pages.dev
 - **预览环境**: 每次 PR 都会生成预览链接
 
 ## 监控部署状态

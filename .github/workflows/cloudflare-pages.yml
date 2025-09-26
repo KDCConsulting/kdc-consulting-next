@@ -36,6 +36,6 @@ jobs:
       - name: Deploy to Cloudflare Pages
         uses: cloudflare/pages-action@v1
         with:
-          projectName: kz-consulting
+          projectName: zk-consulting
           directory: next/out
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}
