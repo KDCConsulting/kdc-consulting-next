@@ -1,5 +1,9 @@
 # Cloudflare Pages 项目配置
-# 注意：Pages 项目不需要 compatibility_flags
+name = "zk-consulting"
+compatibility_date = "2024-01-01"
+
+# Pages 构建输出目录
+pages_build_output_dir = "./out"
 
 # 环境变量配置
 [vars]
