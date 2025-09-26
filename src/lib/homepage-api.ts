@@ -138,11 +138,8 @@ async function strapiRequest<T>(endpoint: string, options: RequestInit = {}): Pr
       ...apiConfig.headers,
       ...options.headers,
     },
-    // 添加ISR配置
-    next: {
-      revalidate: 600, // 10分钟重新验证
-      tags: [endpoint.split('/')[2] || 'homepage'], // 使用endpoint中的内容类型作为标签
-    },
+    // 静态导出模式下禁用ISR
+    cache: 'force-cache',
   })
 
   if (!response.ok) {

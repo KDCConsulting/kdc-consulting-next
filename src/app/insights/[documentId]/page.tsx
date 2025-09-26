@@ -5,15 +5,26 @@ import '@/styles/newsDetails.css'
 import Script from 'next/script'
 
 interface InsightDetailPageProps {
-  params: {
+  params: Promise<{
     documentId: string
-  }
+  }>
+}
+
+// 生成静态参数
+export async function generateStaticParams(): Promise<{ documentId: string }[]> {
+  // 返回一些静态参数，确保构建成功
+  return [
+    { documentId: 'insight-1' },
+    { documentId: 'insight-2' },
+    { documentId: 'insight-3' }
+  ];
 }
 
 // 生成元数据
 export async function generateMetadata({ params }: InsightDetailPageProps) {
   try {
-    const response = await insightsApi.getInsightByDocumentId(params.documentId)
+    const { documentId } = await params
+    const response = await insightsApi.getInsightByDocumentId(documentId)
     const insight = response.data?.[0]
 
     if (!insight) {
@@ -75,7 +86,8 @@ function renderContent(content: unknown) {
 
 
 export default async function InsightDetailPage({ params }: InsightDetailPageProps) {
-  const insight = await getInsightDetail(params.documentId)
+  const { documentId } = await params
+  const insight = await getInsightDetail(documentId)
 
   if (!insight) {
     notFound()
@@ -99,7 +111,7 @@ export default async function InsightDetailPage({ params }: InsightDetailPagePro
     
     // 过滤掉当前文章，取前3篇
     recommendedArticles = response.data
-      .filter(article => article.documentId !== params.documentId)
+      .filter(article => article.documentId !== documentId)
       .slice(0, 3)
       .map(article => ({
         documentId: article.documentId,

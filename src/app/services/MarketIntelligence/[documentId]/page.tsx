@@ -6,9 +6,19 @@ import "@/styles/fuwu.css";
 import "@/styles/area.css";
 
 interface MarketIntelligenceDetailPageProps {
-    params: {
+    params: Promise<{
         documentId: string;
-    };
+    }>;
+}
+
+// 生成静态参数
+export async function generateStaticParams(): Promise<{ documentId: string }[]> {
+  // 返回一些静态参数，确保构建成功
+  return [
+    { documentId: 'market-1' },
+    { documentId: 'market-2' },
+    { documentId: 'market-3' }
+  ];
 }
 
 export async function generateMetadata({

@@ -4,6 +4,10 @@ import { revalidatePath, revalidateTag } from 'next/cache'
 // 重新验证密钥（用于安全验证）
 const REVALIDATE_SECRET = process.env.REVALIDATE_SECRET || 'your-secret-key'
 
+// 静态导出模式下禁用动态功能
+export const dynamic = 'force-static'
+export const revalidate = false
+
 export async function POST(request: NextRequest) {
   try {
     // 验证请求

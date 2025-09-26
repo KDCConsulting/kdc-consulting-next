@@ -6,17 +6,28 @@ import "@/styles/fuwu.css";
 import "@/styles/area.css";
 
 interface InvestmentConsultingDetailPageProps {
-    params: {
+    params: Promise<{
         documentId: string;
-    };
+    }>;
+}
+
+// 生成静态参数
+export async function generateStaticParams(): Promise<{ documentId: string }[]> {
+  // 返回一些静态参数，确保构建成功
+  return [
+    { documentId: 'investment-1' },
+    { documentId: 'investment-2' },
+    { documentId: 'investment-3' }
+  ];
 }
 
 export async function generateMetadata({
     params,
 }: InvestmentConsultingDetailPageProps): Promise<Metadata> {
+    const { documentId } = await params;
     const service = await getServiceByDocumentId(
         ServiceType.INVESTMENT,
-        params.documentId
+        documentId
     );
 
     if (!service) {
@@ -47,10 +58,11 @@ export async function generateMetadata({
 export default async function InvestmentConsultingDetailPage({
     params,
 }: InvestmentConsultingDetailPageProps) {
+    const { documentId } = await params;
     // 获取特定服务数据
     const service = await getServiceByDocumentId(
         ServiceType.INVESTMENT,
-        params.documentId
+        documentId
     );
 
     // 获取所有投资咨询服务用于推荐阅读

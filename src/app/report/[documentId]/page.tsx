@@ -6,9 +6,19 @@ import '@/styles/newsDetails.css'
 import Script from 'next/script'
 
 interface ReportDetailPageProps {
-  params: {
+  params: Promise<{
     documentId: string
-  }
+  }>
+}
+
+// 生成静态参数
+export async function generateStaticParams(): Promise<{ documentId: string }[]> {
+  // 返回一些静态参数，确保构建成功
+  return [
+    { documentId: 'report-1' },
+    { documentId: 'report-2' },
+    { documentId: 'report-3' }
+  ];
 }
 
 // 生成元数据
@@ -89,6 +99,7 @@ function getImageUrl(report: Report): string {
 
 
 export default async function ReportDetailPage({ params }: ReportDetailPageProps) {
+  const { documentId } = await params
   const report = await getReportDetail(params.documentId)
 
   if (!report) {

@@ -1,7 +1,9 @@
 import { insightsApi, newsApi } from '@/lib/api'
 import { homepageApi } from '@/lib/homepage-api'
 
-export const revalidate = 600 // 10分钟重新验证
+// 静态导出模式下禁用重新验证
+export const dynamic = 'force-static'
+export const revalidate = false
 
 export default async function SSGTestPage() {
   const buildTime = new Date().toISOString()

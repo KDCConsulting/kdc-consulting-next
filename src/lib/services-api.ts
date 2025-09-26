@@ -19,10 +19,8 @@ export async function getServicesData(serviceType: ServiceType): Promise<Strateg
         'Content-Type': 'application/json',
         'Authorization': `Bearer ${BEARER_TOKEN}`,
       },
-      // 添加缓存配置
-      next: { 
-        revalidate: 3600 // 1小时缓存
-      }
+      // 静态导出模式下使用缓存
+      cache: 'force-cache'
     })
 
     if (!response.ok) {

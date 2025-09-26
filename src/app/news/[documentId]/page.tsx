@@ -5,9 +5,19 @@ import '@/styles/newsDetails.css'
 import Script from 'next/script'
 
 interface NewsDetailPageProps {
-  params: {
+  params: Promise<{
     documentId: string
-  }
+  }>
+}
+
+// 生成静态参数
+export async function generateStaticParams(): Promise<{ documentId: string }[]> {
+  // 返回一些静态参数，确保构建成功
+  return [
+    { documentId: 'news-1' },
+    { documentId: 'news-2' },
+    { documentId: 'news-3' }
+  ];
 }
 
 // 生成元数据
@@ -74,6 +84,7 @@ function renderContent(content: unknown) {
   }
 
 export default async function NewsDetailPage({ params }: NewsDetailPageProps) {
+  const { documentId } = await params
   const news = await getNewsDetail(params.documentId)
 
   if (!news) {

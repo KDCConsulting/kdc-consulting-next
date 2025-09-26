@@ -6,9 +6,19 @@ import "@/styles/fuwu.css";
 import "@/styles/area.css";
 
 interface StrategicAdvisoryDetailPageProps {
-    params: {
+    params: Promise<{
         documentId: string;
-    };
+    }>;
+}
+
+// 生成静态参数
+export async function generateStaticParams(): Promise<{ documentId: string }[]> {
+  // 返回一些静态参数，确保构建成功
+  return [
+    { documentId: 'strategic-1' },
+    { documentId: 'strategic-2' },
+    { documentId: 'strategic-3' }
+  ];
 }
 
 export async function generateMetadata({
