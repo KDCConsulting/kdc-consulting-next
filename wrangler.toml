@@ -1,15 +1,13 @@
 # Cloudflare Pages 项目配置
-name = "zk-consulting"
+# 此文件用于 GitHub Actions 自动部署
+name = "kz-consulting"
 compatibility_date = "2024-01-01"
 
 # Pages 构建输出目录
 pages_build_output_dir = "./out"
 
-# 环境变量配置
-[vars]
-NEXT_PUBLIC_SITE_URL = "https://kz-consulting.pages.dev"
-NEXT_PUBLIC_REVALIDATE_TIME = "600"
-
-# 生产环境变量（需要在 Cloudflare Dashboard 中设置）
+# 环境变量配置（在 Cloudflare Dashboard 中设置）
+# NEXT_PUBLIC_SITE_URL = "https://kz-consulting.pages.dev"
+# NEXT_PUBLIC_REVALIDATE_TIME = "600"
 # STRAPI_API_URL = "https://energized-dawn-75ac41de31.strapiapp.com"
 # STRAPI_API_TOKEN = "your-token"
