@@ -1,0 +1,104 @@
+.article {
+    /* padding: 0 10%; */
+    max-width: 780px;
+    margin: 0 auto;
+}
+.channel h3 {
+    margin-top: 0;
+    text-align: left;
+}
+.root.responsivegrid{
+    max-width: auto;
+}
+.newsChannel {
+    font-size: 18px;
+    font-family: "SourceHanSansCN";
+    color: rgb(0, 145, 255);
+    /* font-weight: bold; */
+    line-height: 24px;
+    text-align: left;
+    margin: 40px 0 0;
+    display: block;
+}
+
+.newsDetails .article h1{
+    margin-top: 30px;
+}
+.newsDetails .root{
+    padding: 0 130px
+}
+
+.newsDetails .flex {
+    padding-top: 15px;
+    border-top: 1px solid #d8d8d8;
+}
+.newsDetails li.flex {
+    padding-top: 0;
+    border-top: none;
+}
+
+.newsDetails .article .datetime{
+    margin-bottom: 15px;
+}
+
+.w1170{
+    width: 1170px;
+    margin: 0 auto ;
+}
+
+.contactUs{
+    padding: 30px 0 60px;
+    background-color: #f6f6f6;
+}
+.contactUs .w1170 {
+    padding: 0 130px;
+
+}
+.contactUs h6{
+        font-size: 16px;
+        font-family: "SourceHanSansCN";
+        color: rgb(7, 28, 47);
+        text-align: left;
+        font-weight: 400;
+        padding-left: 10px;
+        line-height: 18px;
+        border-left:2px solid  rgb(0, 145, 255);
+margin-bottom: 8px;
+}
+.contactUs p{
+       font-size: 16px;
+        font-family: "SourceHanSansCN";
+        color: rgb(49, 51, 54);
+        line-height: 22px;
+        text-align: left;
+      
+}
+.dcc-title-summary-arrow.has-ellipsis .cmp-teaser__title span:first-child{
+    word-break: break-all;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+.dcc-title-summary-arrow.has-ellipsis .cmp-teaser__description{
+    -webkit-line-clamp: 2;
+
+}
+
+
+.free-download{
+    display: block;
+    /* width: 200px; */
+    height: 48px;
+    line-height: 48px;
+    border-radius: 4px;
+    background-color: #0195ff;
+    color: #fff;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.free-download:hover{
+    color: #fff;
+    opacity: .8;
+}

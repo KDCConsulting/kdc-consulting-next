@@ -1,0 +1,340 @@
+.cmp-top-marquee--carousel .title .cmp-title__text {
+  font-size: 56px;
+  font-family: "SourceHanSansCN";
+  color: rgb(1, 28, 49);
+}
+
+.cmp-top-marquee--carousel .text .cmp-text p {
+  font-size: 24px;
+  font-family: "SourceHanSansCN";
+  color: rgb(7, 28, 47);
+  font-weight: bold;
+}
+
+.cmp-top-marquee--carousel .cmp-top-marquee-dark .cmp-button--text-brand-link.cmp-button--animation.cmp-button--animation-active .cmp-button__text {
+  font-size: 20px;
+  font-family: "SourceHanSansCN";
+  color: rgb(7, 28, 47);
+}
+.cmp-carousel__item:nth-child(1)  .cmp-top-marquee-dark .cmp-button--text-brand-link.cmp-button--animation.cmp-button--animation-active .cmp-button__text {
+  font-size: 20px;
+  font-family: "SourceHanSansCN";
+  color: #fff;
+}
+.cmp-top-marquee--carousel .cmp-top-marquee-dark .cmp-button--text-brand-link.cmp-button--animation.cmp-button--animation-active .cmp-button:before,
+.cmp-top-marquee--carousel .cmp-top-marquee-dark .cmp-button--text-brand-link.cmp-button--animation .cmp-button:before {
+  border-color: rgb(7, 28, 47);
+}
+.cmp-carousel__item:nth-child(1)  .cmp-top-marquee-dark .cmp-button--text-brand-link.cmp-button--animation.cmp-button--animation-active .cmp-button:before,
+.cmp-carousel__item:nth-child(1)  .cmp-top-marquee-dark .cmp-button--text-brand-link.cmp-button--animation .cmp-button:before {
+  border-color: #fff;
+}
+
+.cmp-carousel__indicator {
+  border-radius: 2px !important;
+  background-color: rgba(255, 255, 255, 0.502) !important;
+  width: 60px;
+  height: 4px;
+  z-index: 199;
+  border: none;
+}
+
+.cmp-top-marquee--carousel .cmp-top-marquee-dark .cmp-carousel__indicator.cmp-carousel__indicator--active {
+  background-color: rgb(255, 255, 255) !important;
+}
+
+.cmp-button--text-brand-link.cmp-button--animation.cmp-button--animation-active .cmp-button {
+  color: rgb(0, 145, 255);
+}
+
+.cmp-button--text-brand-link.cmp-button--animation.cmp-button--animation-active .cmp-button:before {
+  border-color: rgb(0, 145, 255);
+}
+.cmp-carousel__item:nth-child(1) .title .cmp-title__text {
+  font-size: 56px;
+  font-family: "SourceHanSansCN";
+  color: hsl(0, 0%, 100%);
+}
+.cmp-carousel__item:nth-child(1)  .text .cmp-text p{
+  color: hsl(0, 0%, 100%);
+
+}
+
+.swiperIndex {
+  width: auto;
+  margin: 0 !important;
+}
+
+.cmp-container .cmp-title__text {
+  text-align: center;
+}
+
+.mySwiper {
+  width: 1200px;
+
+  margin: 0 auto;
+  padding: 0 56px;
+  overflow: hidden;
+}
+
+.mySwiper .swiper-wrapper {
+  width: 1088px;
+
+}
+
+
+.newsIndex {}
+
+.newsIndex .w {
+  background: url(./images/news_index_bg.png) no-repeat center;
+  height: 530px;
+  background-size: auto 530px;
+  width: 100%;
+}
+
+.newsIndex .flex {
+  /* width: 1200px; */
+  margin: 0 auto;
+}
+
+.newsIndex .flex-left {
+  min-width: 50%;
+  display: flex;
+  justify-content: end;
+}
+
+.newsIndex h3 {
+  font-size: 28px;
+  font-family: "SourceHanSansCN";
+  color: rgb(7, 28, 47);
+  line-height: 32px;
+  text-align: left;
+  word-break: break-all;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  font-weight: 400;
+  margin-bottom: 20px;
+  /* max-width: 512px; */
+}
+
+.newsIndex .flex-left h3 {
+  padding-top: 90px;
+  margin-bottom: 25px;
+}
+
+/* .newsIndex .flex-right h3 {
+  padding-top: 90px;
+  margin-bottom: 25px;
+ } */
+
+.newsIndex p {
+  font-size: 16px;
+  font-family: "SourceHanSansCN";
+  color: rgb(7, 28, 47);
+  line-height: 1.5;
+  text-align: left;
+  word-break: break-all;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  margin-bottom: 40px;
+}
+.newsIndex .flex-right p {
+  -webkit-line-clamp:2;
+}
+.newsIndex .flex-left .underlineAni,.newsIndex .flex-left h3,.newsIndex .flex-left p{
+  color: #fff;
+
+}
+
+
+.newsIndex .flex-left .underlineAni::before {
+  background-color: #fff;
+}
+.newsIndex .flex-left .underlineAni::after {
+  background: url(./images/arrow_white.png) no-repeat center;
+}
+.underlineAni {
+  position: relative;
+  display: inline-block;
+  font-size: 20px;
+  font-family: "SourceHanSansCN";
+  color: rgb(0, 145, 255);
+  line-height: 1.2;
+  text-align: left;
+
+}
+
+.underlineAni::before {
+  background-color: rgb(0, 145, 255);
+  height: 2px;
+  width: 0%;
+  content: "";
+  display: block;
+  position: absolute;
+  transition: all .5s;
+  bottom: -8px;
+}
+
+.underlineAni:hover::before {
+
+  width: 100%;
+  transition: all .5s;
+}
+
+.underlineAni::after {
+  background: url(./images/arrow_blue.png) no-repeat center;
+  height: 12px;
+  width: 20px;
+  content: "";
+  position: absolute;
+  top: 6px;
+  right: -26px;
+}
+.flex-left .news-item {
+    width: 600px;
+}
+.news-item {
+  display: flex;
+
+}
+
+.flex-right .news-item {
+  padding: 13px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.flex-right .news-item p {
+
+  margin-bottom: 90px;
+}
+.flex-right .news-item .newsItemRight{
+  max-width: 65%;
+}
+.news-item  .news-item-img{
+  width: 236px;
+  /* transition: all 1s; */
+  height: 236px;
+  margin-right: 30px;
+overflow: hidden;
+min-width: 236px;
+}
+.news-item img {
+  display: block;
+  width: 236px;
+  transition: all 1s;
+  height: 236px;
+}
+
+.news-item img:hover {
+  transform: scale(1.3);
+  transition: all 1s;
+}
+
+.cmp-cascading-block_first-row {
+  margin-bottom: 50px;
+}
+
+.cmp-container .cmp-text {
+  margin-bottom: 50px;
+}
+
+.cmp-cascadingcard_text-content .cmp-teaser__title-link {
+  line-height: 1.2;
+  word-break: break-all;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    font-size: 28px;
+    -webkit-box-orient: vertical;
+}
+.cmp-cascadingcard_description p{
+  word-break: break-all;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 6;
+  -webkit-box-orient: vertical;
+}
+.cmp-cascadingcard_text-content {
+  padding: 20px 10px 0;
+}
+.cmp-cascadingcard_text-content h2{
+  min-height: 70px;
+  overflow: hidden;
+}
+.mySwiper {
+  position: relative;
+}
+
+.mySwiper .swiper-wrapper {
+  /* justify-content: center; */
+}
+
+.newsSwiper {
+  margin-bottom: 80px;
+}
+@media only screen and (max-width: 1300px) and (min-width: 1200px) {
+
+  .cmp-container .cmp-text{
+    margin-bottom: -20px;
+  }
+  .swiperIndex .bp-alertcard--animate .bp-alert-cards__description{
+    margin-bottom: -20px;
+  }
+}
+@media only screen and (max-width: 1400px) and (min-width: 1301px) {
+
+  .cmp-container .cmp-text{
+    margin-bottom:-10px;
+  }
+  .swiperIndex .bp-alertcard--animate .bp-alert-cards__description{
+    margin-bottom: -20px;
+  }
+}
+@media only screen and (max-width: 1500px) and (min-width: 1401px) {
+
+  .cmp-container .cmp-text{
+    margin-bottom:0;
+  }
+  .swiperIndex .bp-alertcard--animate .bp-alert-cards__description{
+    margin-bottom: -20px;
+  }
+}
+@media only screen and (max-width: 1600px) and (min-width: 1501px) {
+
+  .cmp-container .cmp-text{
+    margin-bottom:0;
+  }
+  .swiperIndex .bp-alertcard--animate .bp-alert-cards__description{
+    margin-bottom: 50px;
+  }
+}
+
+.cmp-carousel__item:nth-child(1) .cmp-button--text-brand-link.cmp-button--animation.cmp-button--animation-active .cmp-button .cmp-button__text:before {
+
+  content: "";
+  width: 20px;
+  height: 12px;
+  background: url(./images/arrow_white.png) no-repeat center left;
+  background-size: 100%;
+  padding: 0;
+  margin-right: 1.2rem;
+}
+.cmp-cascading-block_first-row .cmp-title,.cmp-cascading-block_first-row .text{
+  opacity: 1;
+}
+.root.responsivegrid,.container{
+  max-width: none;
+}
+.root.responsivegrid > .cmp-container{
+  border: 0 solid;
+}

@@ -1,0 +1,21 @@
+@media (min-width: 1000px) {
+    .custom-html--sitecore .awards-card-block .three-awards-card .awards-card-box:last-child {
+      float: left !important;
+    }
+  }
+  @media (max-width: 767px) {
+    .custom-html--sitecore .carousel-gray-bg::before {
+      height: 72.4rem;
+    }
+    .custom-html--sitecore .carousel-block-container .text-content-main .carousel-text-content .bp-category-tag {
+      margin-top: -3.4rem;
+      padding-top: 0;
+      padding-bottom: 2.2rem;
+    }
+  }
+  @media (max-width: 400px) {
+    .custom-html--sitecore .video-animation.profile .profile-panel .profile-image {
+      left: -20% !important;
+    }
+  }
+  

@@ -1,0 +1,200 @@
+
+.banner-insight{
+  background-image: url(./images/banner-insight.png);
+}
+.root.responsivegrid,.container{
+  max-width: 1200px;
+}
+.dcc-imagefoldtag .cmp-teaser__image .cmp-image__link{
+     /* width: 356px;
+  height: 356px; */
+  width: 370px;
+  height: 370px;
+}
+.dcc-imagefoldtag .cmp-teaser__image .cmp-image__link img{
+   
+/* width: 356px;
+  height: 356px; */
+   
+width: 370px;
+   
+/* height: 370px; */
+}
+.dcc-imagefoldtag .cmp-teaser__image{
+    padding-top: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    border: none;
+}
+
+.dcc-imagefoldtag .cmp-teaser__content{
+    background-color:#f6f6f6 ;
+    border: none;
+}
+.dcc .cmp-teaser__pretitle .cmp-teaser__pretitle-link, .dcc .cmp-teaser__pretitle a{
+    font-size: 14px;
+    font-family: "SourceHanSansCN";
+    color: rgb(7, 28, 47);
+    line-height: 1.2;
+  
+    text-decoration-color:rgb(0, 145, 255);
+}
+.dcc .cmp-teaser__pretitle{
+  text-decoration-color:rgb(0, 145, 255);
+  text-decoration-thickness: 1px;
+  
+}
+.dcc .cmp-teaser__pretitle a{
+  /* text-decoration-color:rgb(74, 157, 187); */
+  
+}
+.cmp-teaser__action-link,.dcc-imagefoldtag .cmp-teaser__title a:hover{
+    color: rgb(0, 145, 255);
+
+}
+.dcc .cmp-teaser__pretitle a:hover{
+  color: rgb(7, 28, 47);
+}
+.learnMore{
+text-align: center;
+}
+
+.learnMore a{
+    margin: 0 auto;
+        color: rgb(0, 145, 255);
+      
+}
+.learnMore a::after{
+    border-color: rgb(0, 145, 255);
+}
+
+.firstBanner{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction:row;
+}
+
+.firstBanner .cmp-teaser__image,.firstBanner .cmp-teaser__content{
+    /* width: 30%; */
+}
+
+.firstBanner .cmp-teaser__image {
+    /* background-image: url("./images/731813626976927744.png"); */
+    /* position: absolute;
+    left: 379px;
+    top: 481px; */
+    width: 416px;
+    height: 416px;
+    padding: 0;
+   
+    /* z-index: 23; */
+  }
+
+  .firstBanner .cmp-teaser__image img{
+    width: 416px !important;
+    height: 416px !important;
+  }
+  .firstBanner .cmp-teaser__content {
+    background-color: rgb(255, 255, 255);
+    /* position: absolute;
+    left: 795px;
+    top: 616px; */
+    width: 754px;
+    min-width:754px;
+    height: 281px;
+    /* z-index: 24; */
+   margin-left: 0;
+margin-top: 135px;
+  }
+  
+
+ 
+ .dcc-imagefoldtag    .firstBanner  .cmp-teaser__image .cmp-image__link{
+    width: 416px;
+    height: 416px;
+  }
+  
+  .dcc-imagefoldtag .firstBanner .cmp-teaser__image:after{
+    display: none;
+  }
+  
+  #newsListBox{
+    transition: all 0.5s;
+/* height:1620px; */
+overflow : hidden;
+  }
+  .showMore{
+    display: none;
+  }
+  .newsList  .dcc-imagefoldtag .cmp-teaser__content{
+background-color: #fff;
+border: none;
+margin-left: 0;
+transition: all .5s;
+padding-bottom: 0 !important;
+  }
+  .newsList  .dcc-imagefoldtag:hover  .cmp-teaser__content{
+        box-shadow: 0px 2px 8px 0px rgba(168, 168, 168, 0.5);
+        transition: all .5s;
+        cursor: pointer;
+  }
+  .responsivegrid .full-width-constraint{
+    margin: 0 auto;
+  }
+  .responsivegrid .full-width-constraint>div.cmp-container>div{
+    padding-top: 0;
+  }
+  .learnMore a::before{
+    background-image: url(./images/arrow_blue.png);
+  }
+
+  .cmp-teaser__action-link:after{
+    content: '';
+    display: block;
+    background: url(./images/arrow_blue.png) no-repeat center;
+    height: 14px;
+    width: 22px;
+    position: absolute;
+    right: -26px;
+    top: 50%;
+    margin-top: -7px;
+  }
+  .cmp-teaser__action-link:visited, .cmp-teaser__action-link:visited:hover{
+    color:   rgb(0, 145, 255);
+  }
+
+  .cmp-teaser__action-link:before{
+    max-width: 100%;
+  }
+
+  .cmp-teaser__action-link:before{
+    color:   rgb(0, 145, 255);
+
+  }
+  .channel h3{
+    text-align: left;
+    padding-left: 15px;
+}
+
+.dcc-imagefoldtag .cmp-teaser__title{
+  word-break: break-all;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.cmp-teaser__description p .cmp-text__paragraph-default{
+  word-break: break-all;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp:2;
+  -webkit-box-orient: vertical;
+}
+.firstBanner .dcc-imagefoldtag .cmp-teaser__title{
+  -webkit-line-clamp: 1;
+}
+.firstBanner .cmp-teaser__description p .cmp-text__paragraph-default{
+  -webkit-line-clamp:3;
+}

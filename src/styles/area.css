@@ -1,0 +1,172 @@
+/* .服务要点___如何做___方法 {
+    font-size: 42px;
+    font-family: "SourceHanSansCN";
+    color: rgb(7, 28, 47);
+    line-height: 1.2;
+    text-align: left;
+    position: absolute;
+    left: 381.887px;
+    top: 964.584px;
+    z-index: 85;
+  }
+   */
+   .root.responsivegrid > .cmp-container {
+    border: none;
+}
+.cmp-container .cmp-title__text {
+  margin-bottom: 0;
+  padding-top: 40px;
+  line-height: 1;
+  margin-bottom: 18px;
+}
+
+.dcc-title-summary-arrow .cmp-teaser {
+  border: none
+}
+
+.area .title {
+  margin-bottom: 20px;
+}
+
+.fwyd {
+  margin-top: 60px;
+  justify-content: space-between;
+}
+
+.fwyd h3 {
+  line-height: 1.5;
+  font-size: 20px;
+  text-align: center;
+
+}
+
+.fwyd p {
+  line-height: 1.8;
+  font-size: 16px;
+  text-align: left;
+
+}
+
+.fwyd .flexItem {
+  width: 100%;
+  padding: 0 2%;
+}
+
+.fwyd img {
+  width: 120px;
+  margin: 0 auto 10px;
+  display: block;
+}
+
+.fuwuyaodian {}
+
+
+.fuwu-intr {
+  font-size: 16px;
+  font-family: Source Han Sans CN, Source Han Sans CN-Regular;
+  font-weight: Regular;
+  text-align: left;
+  color: #071c2f;
+  line-height: 24px;
+  margin-bottom: 40px;
+}
+
+.fuwu-flex {
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+
+}
+
+.fuwuyaodian .fuwu-flex-item {
+  width: 364px;
+  height: 148px;
+  background: #ffffff;
+  border: 1px solid #cccccc;
+  box-sizing: border-box;
+  margin-right: 31px;
+  margin-bottom: 42px;
+  position: relative;
+  padding: 20px 24px;
+}
+
+.fuwuyaodian .fuwu-flex-item .after {
+  width: 52px;
+  height: 36px;
+  border-top: 5px solid #1d49e7;
+  border-right: 5px solid #1d49e7;
+  position: absolute;
+  right: -5px;
+  top: -5px;
+}
+
+.fuwuyaodian .fuwu-flex-item:nth-child(3n) {
+  margin-right: 0;
+}
+
+.fuwuyaodian .fuwu-flex-item h6 {
+  font-size: 26px;
+  font-family: Source Han Sans CN, Source Han Sans CN-Bold;
+  font-weight: Bold;
+  text-align: left;
+  color: #071c2f;
+  line-height: 26px;
+  margin-bottom: 20px;
+}
+
+.fuwuyaodian .fuwu-flex-item p {
+  font-size: 14px;
+  font-family: Source Han Sans CN, Source Han Sans CN-Medium;
+  font-weight: Medium;
+  text-align: left;
+  color: #071c2f;
+  line-height: 20px;
+  letter-spacing: 0px;
+}
+
+.fuwujiazhi .fuwu-flex {
+  margin-top: 138px;
+}
+
+.fuwujiazhi .fuwu-flex-item {
+  width: 370px;
+  height: 220px;
+  background: #f2f2f2;
+  margin-right: 22px;
+  padding: 60px 22px 0;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.fuwujiazhi .fuwu-flex-item:nth-child(3n) {
+  margin-right: 0;
+}
+
+.fuwujiazhi .fuwu-flex-item img {
+  width: 140px;
+  height: 140px;
+  position: absolute;
+  left: 32px;
+  top: -100px;
+}
+
+.fuwujiazhi .fuwu-flex-item h6 {
+  font-size: 28px;
+  font-family: Source Han Sans CN, Source Han Sans CN-Bold;
+  font-weight: Bold;
+  text-align: left;
+  color: #071c2f;
+  line-height: 28px;
+  letter-spacing: 0.01px;
+  margin-bottom: 20px;
+}
+
+.fuwujiazhi .fuwu-flex-item p {
+  font-size: 16px;
+  font-family: Source Han Sans CN, Source Han Sans CN-Medium;
+  font-weight: Medium;
+  text-align: left;
+  color: #071c2f;
+  line-height: 24px;
+  letter-spacing: 0px;
+}

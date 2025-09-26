@@ -1,0 +1,66 @@
+.banner{
+    background-image: url(./images/banner_news.png);
+}
+.banner h2{
+    margin-bottom: 15px;
+}
+.firstBanner .cmp-teaser__title{
+margin-top: 10px;  -webkit-line-clamp: 1;
+}
+
+.dcc-imagefoldtag.has-ellipsis .cmp-teaser__description p span{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}
+.root .dcc-imagefoldtag.has-ellipsis .cmp-teaser__description p span{
+    -webkit-line-clamp: 1;
+
+}
+.showMore{
+        /* background-color: rgb(0, 145, 255);
+        width: 180px;
+        height: 50px;
+            font-size: 16px;
+            font-family: "SourceHanSansCN";
+            color: rgb(255, 255, 255);
+            line-height: 50px;
+            text-align: center; */
+           margin-top: 30px;
+}
+.showMore button{
+    display: block;
+    margin: 0 auto;
+    background-color: rgb(0, 145, 255);
+    width: 180px;
+    height: 50px;
+        font-size: 16px;
+        font-family: "SourceHanSansCN";
+        color: rgb(255, 255, 255);
+        line-height: 50px;
+        text-align: center;
+       
+}
+.cmp-container .cmp-title__text{
+    font-weight: 400;
+    
+}
+.mySwiper{
+    width: 1312px;
+    margin: 0 auto;
+    padding: 0 56px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .mySwiper .swiper-wrapper {
+    width: 1200px;
+  
+    /* justify-content: center; */
+  }
+  
+  .newsSwiper {
+    margin-bottom: 80px;
+  }
+  

@@ -1,0 +1,1174 @@
+
+{{baseUrl}}/api/strategic-advisories?populate=*
+{
+    "data": [
+        {
+            "id": 2,
+            "documentId": "d20r9ug31kok9t4wk2fs0n7m",
+            "channelName": "战略规划",
+            "ServiceIntroductionTitle": "智驭变革，策动未来",
+            "ServiceIntroductionContent": [
+                {
+                    "type": "paragraph",
+                    "children": [
+                        {
+                            "text": "战略规划是组织或企业为实现其长期目标而制定的长远计划和行动方案，在企业发展中扮演着至关重要的角色，对明确企业发展方向、凝聚内部共识、应对市场挑战、优化资源配置以及提升竞争力等方面都具有重要意义。",
+                            "type": "text"
+                        }
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "children": [
+                        {
+                            "text": "在技术创新加速迭代与市场环境瞬息万变的当下，企业若仍局限于单一、浅层的分析框架来构建战略规划，势必难以在激烈的市场竞争中脱颖而出。",
+                            "type": "text"
+                        }
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "children": [
+                        {
+                            "text": "科智咨询采用创新方法论定制化构建战略分析工具，结合详尽的财务指标分析与宏观经济数据洞察，全面评估企业的独特资源禀赋、规模优势、业务布局、资本结构及市场动态，确保战略规划的前瞻性与个性化",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ],
+            "ServiceContentTitle": "服务内容",
+            "ServiceContentBriefIntroduction": "依托深度的环境分析、行业洞察与企业理解，我们帮助企业在剧烈变动的社会经济环境中制定最优发展战略，并围绕战略实现为企业进行业务与职能规划。",
+            "ServiceValuePropositionTitle": "科智咨询的独到支持",
+            "ServiceValuePropositionBriefIntroduction": null,
+            "createdAt": "2025-09-17T09:56:55.430Z",
+            "updatedAt": "2025-09-17T09:56:55.430Z",
+            "publishedAt": "2025-09-17T09:56:55.625Z",
+            "channelDescription": null,
+            "channelBanner": {
+                "id": 13,
+                "documentId": "cvgos85g6b26z9hkuaqv4uip",
+                "name": "918242651931672576.png",
+                "alternativeText": null,
+                "caption": null,
+                "width": 1920,
+                "height": 350,
+                "formats": {
+                    "large": {
+                        "ext": ".png",
+                        "url": "https://energized-dawn-75ac41de31.media.strapiapp.com/large_918242651931672576_d52391f385.png",
+                        "hash": "large_918242651931672576_d52391f385",
+                        "mime": "image/png",
+                        "name": "large_918242651931672576.png",
+                        "path": null,
+                        "size": 347.7,
+                        "width": 1000,
+                        "height": 182,
+                        "sizeInBytes": 347697
+                    },
+                    "small": {
+                        "ext": ".png",
+                        "url": "https://energized-dawn-75ac41de31.media.strapiapp.com/small_918242651931672576_d52391f385.png",
+                        "hash": "small_918242651931672576_d52391f385",
+                        "mime": "image/png",
+                        "name": "small_918242651931672576.png",
+                        "path": null,
+                        "size": 90.52,
+                        "width": 500,
+                        "height": 91,
+                        "sizeInBytes": 90516
+                    },
+                    "medium": {
+                        "ext": ".png",
+                        "url": "https://energized-dawn-75ac41de31.media.strapiapp.com/medium_918242651931672576_d52391f385.png",
+                        "hash": "medium_918242651931672576_d52391f385",
+                        "mime": "image/png",
+                        "name": "medium_918242651931672576.png",
+                        "path": null,
+                        "size": 200.17,
+                        "width": 750,
+                        "height": 137,
+                        "sizeInBytes": 200170
+                    },
+                    "thumbnail": {
+                        "ext": ".png",
+                        "url": "https://energized-dawn-75ac41de31.media.strapiapp.com/thumbnail_918242651931672576_d52391f385.png",
+                        "hash": "thumbnail_918242651931672576_d52391f385",
+                        "mime": "image/png",
+                        "name": "thumbnail_918242651931672576.png",
+                        "path": null,
+                        "size": 23.05,
+                        "width": 245,
+                        "height": 45,
+                        "sizeInBytes": 23045
+                    }
+                },
+                "hash": "918242651931672576_d52391f385",
+                "ext": ".png",
+                "mime": "image/png",
+                "size": 339.06,
+                "url": "https://energized-dawn-75ac41de31.media.strapiapp.com/918242651931672576_d52391f385.png",
+                "previewUrl": null,
+                "provider": "strapi-provider-upload-strapi-cloud",
+                "provider_metadata": null,
+                "createdAt": "2025-09-17T09:49:11.323Z",
+                "updatedAt": "2025-09-18T06:44:56.503Z",
+                "publishedAt": "2025-09-17T09:49:11.323Z"
+            },
+            "ServiceIntroductionImage": {
+                "id": 12,
+                "documentId": "zjpoguls8e9eq1vaq4nsbg42",
+                "name": "953246970422493184.jpg",
+                "alternativeText": null,
+                "caption": null,
+                "width": 4800,
+                "height": 2700,
+                "formats": {
+                    "large": {
+                        "ext": ".jpg",
+                        "url": "https://energized-dawn-75ac41de31.media.strapiapp.com/large_953246970422493184_44462f5846.jpg",
+                        "hash": "large_953246970422493184_44462f5846",
+                        "mime": "image/jpeg",
+                        "name": "large_953246970422493184.jpg",
+                        "path": null,
+                        "size": 57.42,
+                        "width": 1000,
+                        "height": 563,
+                        "sizeInBytes": 57421
+                    },
+                    "small": {
+                        "ext": ".jpg",
+                        "url": "https://energized-dawn-75ac41de31.media.strapiapp.com/small_953246970422493184_44462f5846.jpg",
+                        "hash": "small_953246970422493184_44462f5846",
+                        "mime": "image/jpeg",
+                        "name": "small_953246970422493184.jpg",
+                        "path": null,
+                        "size": 18.42,
+                        "width": 500,
+                        "height": 281,
+                        "sizeInBytes": 18419
+                    },
+                    "medium": {
+                        "ext": ".jpg",
+                        "url": "https://energized-dawn-75ac41de31.media.strapiapp.com/medium_953246970422493184_44462f5846.jpg",
+                        "hash": "medium_953246970422493184_44462f5846",
+                        "mime": "image/jpeg",
+                        "name": "medium_953246970422493184.jpg",
+                        "path": null,
+                        "size": 35.74,
+                        "width": 750,
+                        "height": 422,
+                        "sizeInBytes": 35741
+                    },
+                    "thumbnail": {
+                        "ext": ".jpg",
+                        "url": "https://energized-dawn-75ac41de31.media.strapiapp.com/thumbnail_953246970422493184_44462f5846.jpg",
+                        "hash": "thumbnail_953246970422493184_44462f5846",
+                        "mime": "image/jpeg",
+                        "name": "thumbnail_953246970422493184.jpg",
+                        "path": null,
+                        "size": 5.98,
+                        "width": 245,
+                        "height": 138,
+                        "sizeInBytes": 5978
+                    }
+                },
+                "hash": "953246970422493184_44462f5846",
+                "ext": ".jpg",
+                "mime": "image/jpeg",
+                "size": 716.52,
+                "url": "https://energized-dawn-75ac41de31.media.strapiapp.com/953246970422493184_44462f5846.jpg",
+                "previewUrl": null,
+                "provider": "strapi-provider-upload-strapi-cloud",
+                "provider_metadata": null,
+                "createdAt": "2025-09-17T09:49:11.059Z",
+                "updatedAt": "2025-09-17T09:49:11.059Z",
+                "publishedAt": "2025-09-17T09:49:11.060Z"
+            },
+            "ServiceContentComponents": [
+                {
+                    "id": 7,
+                    "Title": "宏观环境分析",
+                    "Description": "对企业所处的宏观环境进行全面分析，帮助把握外部环境的机遇与威胁。"
+                },
+                {
+                    "id": 8,
+                    "Title": "行业环境与竞争格局分析",
+                    "Description": "深入分析行业趋势、市场结构、竞争对手情况，明确企业的市场定位和发展空间。"
+                },
+                {
+                    "id": 9,
+                    "Title": "内部资源和能力分析",
+                    "Description": "评估企业的内部资源和能力，识别企业的核心竞争力和潜在增长点。"
+                },
+                {
+                    "id": 10,
+                    "Title": "发展战略与核心竞争力设计",
+                    "Description": "构建企业核心竞争力，制定企业长期发展的总体规划和方向性决策。"
+                },
+                {
+                    "id": 11,
+                    "Title": "业务战略规划设计",
+                    "Description": "针对特定业务领域制定详细的发展策略，以支持企业整体战略目标的实现。"
+                },
+                {
+                    "id": 12,
+                    "Title": "职能战略规划设计",
+                    "Description": "为各职能部门制定具体的行动计划，确保企业整体战略在各层面得到有效执行。"
+                }
+            ],
+            "ServiceValuePropositionComponents": [
+                {
+                    "id": 10,
+                    "Title": "灵活应变与持续支持",
+                    "Description": "科智始终保持与企业的紧密联系，随时准备根据最新情况调整规划，并提供持续性支持和指导。"
+                },
+                {
+                    "id": 11,
+                    "Title": "跨领域整合",
+                    "Description": "科智专家具备跨领域的知识和技能，为客户提供综合性战略规划服务。"
+                },
+                {
+                    "id": 12,
+                    "Title": "创新推动",
+                    "Description": "科智鼓励企业创新，帮助客户在产品、技术、管理等方面实现突破。"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "documentId": "y4xyxbm0xiucshkx96be122j",
+            "channelName": "商业模式变革",
+            "ServiceIntroductionTitle": "智驭变革，策动未来",
+            "ServiceIntroductionContent": [
+                {
+                    "type": "paragraph",
+                    "children": [
+                        {
+                            "text": "战略规划是组织或企业为实现其长期目标而制定的长远计划和行动方案，在企业发展中扮演着至关重要的角色，对明确企业发展方向、凝聚内部共识、应对市场挑战、优化资源配置以及提升竞争力等方面都具有重要意义。",
+                            "type": "text"
+                        }
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "children": [
+                        {
+                            "text": "在技术创新加速迭代与市场环境瞬息万变的当下，企业若仍局限于单一、浅层的分析框架来构建战略规划，势必难以在激烈的市场竞争中脱颖而出。",
+                            "type": "text"
+                        }
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "children": [
+                        {
+                            "text": "科智咨询采用创新方法论定制化构建战略分析工具，结合详尽的财务指标分析与宏观经济数据洞察，全面评估企业的独特资源禀赋、规模优势、业务布局、资本结构及市场动态，确保战略规划的前瞻性与个性化",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ],
+            "ServiceContentTitle": "服务内容",
+            "ServiceContentBriefIntroduction": "依托深度的环境分析、行业洞察与企业理解，我们帮助企业在剧烈变动的社会经济环境中制定最优发展战略，并围绕战略实现为企业进行业务与职能规划。",
+            "ServiceValuePropositionTitle": "科智咨询的独到支持",
+            "ServiceValuePropositionBriefIntroduction": null,
+            "createdAt": "2025-09-18T06:38:51.300Z",
+            "updatedAt": "2025-09-18T06:38:58.140Z",
+            "publishedAt": "2025-09-18T06:38:58.428Z",
+            "channelDescription": null,
+            "channelBanner": {
+                "id": 13,
+                "documentId": "cvgos85g6b26z9hkuaqv4uip",
+                "name": "918242651931672576.png",
+                "alternativeText": null,
+                "caption": null,
+                "width": 1920,
+                "height": 350,
+                "formats": {
+                    "large": {
+                        "ext": ".png",
+                        "url": "https://energized-dawn-75ac41de31.media.strapiapp.com/large_918242651931672576_d52391f385.png",
+                        "hash": "large_918242651931672576_d52391f385",
+                        "mime": "image/png",
+                        "name": "large_918242651931672576.png",
+                        "path": null,
+                        "size": 347.7,
+                        "width": 1000,
+                        "height": 182,
+                        "sizeInBytes": 347697
+                    },
+                    "small": {
+                        "ext": ".png",
+                        "url": "https://energized-dawn-75ac41de31.media.strapiapp.com/small_918242651931672576_d52391f385.png",
+                        "hash": "small_918242651931672576_d52391f385",
+                        "mime": "image/png",
+                        "name": "small_918242651931672576.png",
+                        "path": null,
+                        "size": 90.52,
+                        "width": 500,
+                        "height": 91,
+                        "sizeInBytes": 90516
+                    },
+                    "medium": {
+                        "ext": ".png",
+                        "url": "https://energized-dawn-75ac41de31.media.strapiapp.com/medium_918242651931672576_d52391f385.png",
+                        "hash": "medium_918242651931672576_d52391f385",
+                        "mime": "image/png",
+                        "name": "medium_918242651931672576.png",
+                        "path": null,
+                        "size": 200.17,
+                        "width": 750,
+                        "height": 137,
+                        "sizeInBytes": 200170
+                    },
+                    "thumbnail": {
+                        "ext": ".png",
+                        "url": "https://energized-dawn-75ac41de31.media.strapiapp.com/thumbnail_918242651931672576_d52391f385.png",
+                        "hash": "thumbnail_918242651931672576_d52391f385",
+                        "mime": "image/png",
+                        "name": "thumbnail_918242651931672576.png",
+                        "path": null,
+                        "size": 23.05,
+                        "width": 245,
+                        "height": 45,
+                        "sizeInBytes": 23045
+                    }
+                },
+                "hash": "918242651931672576_d52391f385",
+                "ext": ".png",
+                "mime": "image/png",
+                "size": 339.06,
+                "url": "https://energized-dawn-75ac41de31.media.strapiapp.com/918242651931672576_d52391f385.png",
+                "previewUrl": null,
+                "provider": "strapi-provider-upload-strapi-cloud",
+                "provider_metadata": null,
+                "createdAt": "2025-09-17T09:49:11.323Z",
+                "updatedAt": "2025-09-18T06:44:56.503Z",
+                "publishedAt": "2025-09-17T09:49:11.323Z"
+            },
+            "ServiceIntroductionImage": {
+                "id": 12,
+                "documentId": "zjpoguls8e9eq1vaq4nsbg42",
+                "name": "953246970422493184.jpg",
+                "alternativeText": null,
+                "caption": null,
+                "width": 4800,
+                "height": 2700,
+                "formats": {
+                    "large": {
+                        "ext": ".jpg",
+                        "url": "https://energized-dawn-75ac41de31.media.strapiapp.com/large_953246970422493184_44462f5846.jpg",
+                        "hash": "large_953246970422493184_44462f5846",
+                        "mime": "image/jpeg",
+                        "name": "large_953246970422493184.jpg",
+                        "path": null,
+                        "size": 57.42,
+                        "width": 1000,
+                        "height": 563,
+                        "sizeInBytes": 57421
+                    },
+                    "small": {
+                        "ext": ".jpg",
+                        "url": "https://energized-dawn-75ac41de31.media.strapiapp.com/small_953246970422493184_44462f5846.jpg",
+                        "hash": "small_953246970422493184_44462f5846",
+                        "mime": "image/jpeg",
+                        "name": "small_953246970422493184.jpg",
+                        "path": null,
+                        "size": 18.42,
+                        "width": 500,
+                        "height": 281,
+                        "sizeInBytes": 18419
+                    },
+                    "medium": {
+                        "ext": ".jpg",
+                        "url": "https://energized-dawn-75ac41de31.media.strapiapp.com/medium_953246970422493184_44462f5846.jpg",
+                        "hash": "medium_953246970422493184_44462f5846",
+                        "mime": "image/jpeg",
+                        "name": "medium_953246970422493184.jpg",
+                        "path": null,
+                        "size": 35.74,
+                        "width": 750,
+                        "height": 422,
+                        "sizeInBytes": 35741
+                    },
+                    "thumbnail": {
+                        "ext": ".jpg",
+                        "url": "https://energized-dawn-75ac41de31.media.strapiapp.com/thumbnail_953246970422493184_44462f5846.jpg",
+                        "hash": "thumbnail_953246970422493184_44462f5846",
+                        "mime": "image/jpeg",
+                        "name": "thumbnail_953246970422493184.jpg",
+                        "path": null,
+                        "size": 5.98,
+                        "width": 245,
+                        "height": 138,
+                        "sizeInBytes": 5978
+                    }
+                },
+                "hash": "953246970422493184_44462f5846",
+                "ext": ".jpg",
+                "mime": "image/jpeg",
+                "size": 716.52,
+                "url": "https://energized-dawn-75ac41de31.media.strapiapp.com/953246970422493184_44462f5846.jpg",
+                "previewUrl": null,
+                "provider": "strapi-provider-upload-strapi-cloud",
+                "provider_metadata": null,
+                "createdAt": "2025-09-17T09:49:11.059Z",
+                "updatedAt": "2025-09-17T09:49:11.059Z",
+                "publishedAt": "2025-09-17T09:49:11.060Z"
+            },
+            "ServiceContentComponents": [
+                {
+                    "id": 19,
+                    "Title": "宏观环境分析",
+                    "Description": "对企业所处的宏观环境进行全面分析，帮助把握外部环境的机遇与威胁。"
+                },
+                {
+                    "id": 20,
+                    "Title": "行业环境与竞争格局分析",
+                    "Description": "深入分析行业趋势、市场结构、竞争对手情况，明确企业的市场定位和发展空间。"
+                },
+                {
+                    "id": 21,
+                    "Title": "内部资源和能力分析",
+                    "Description": "评估企业的内部资源和能力，识别企业的核心竞争力和潜在增长点。"
+                },
+                {
+                    "id": 22,
+                    "Title": "发展战略与核心竞争力设计",
+                    "Description": "构建企业核心竞争力，制定企业长期发展的总体规划和方向性决策。"
+                },
+                {
+                    "id": 23,
+                    "Title": "业务战略规划设计",
+                    "Description": "针对特定业务领域制定详细的发展策略，以支持企业整体战略目标的实现。"
+                },
+                {
+                    "id": 24,
+                    "Title": "职能战略规划设计",
+                    "Description": "为各职能部门制定具体的行动计划，确保企业整体战略在各层面得到有效执行。"
+                }
+            ],
+            "ServiceValuePropositionComponents": [
+                {
+                    "id": 16,
+                    "Title": "灵活应变与持续支持",
+                    "Description": "科智始终保持与企业的紧密联系，随时准备根据最新情况调整规划，并提供持续性支持和指导。"
+                },
+                {
+                    "id": 17,
+                    "Title": "跨领域整合",
+                    "Description": "科智专家具备跨领域的知识和技能，为客户提供综合性战略规划服务。"
+                },
+                {
+                    "id": 18,
+                    "Title": "创新推动",
+                    "Description": "科智鼓励企业创新，帮助客户在产品、技术、管理等方面实现突破。"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "documentId": "q7cz9khu61ne48wm63sc15zo",
+            "channelName": "竞争战略",
+            "ServiceIntroductionTitle": "智驭变革，策动未来",
+            "ServiceIntroductionContent": [
+                {
+                    "type": "paragraph",
+                    "children": [
+                        {
+                            "text": "战略规划是组织或企业为实现其长期目标而制定的长远计划和行动方案，在企业发展中扮演着至关重要的角色，对明确企业发展方向、凝聚内部共识、应对市场挑战、优化资源配置以及提升竞争力等方面都具有重要意义。",
+                            "type": "text"
+                        }
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "children": [
+                        {
+                            "text": "在技术创新加速迭代与市场环境瞬息万变的当下，企业若仍局限于单一、浅层的分析框架来构建战略规划，势必难以在激烈的市场竞争中脱颖而出。",
+                            "type": "text"
+                        }
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "children": [
+                        {
+                            "text": "科智咨询采用创新方法论定制化构建战略分析工具，结合详尽的财务指标分析与宏观经济数据洞察，全面评估企业的独特资源禀赋、规模优势、业务布局、资本结构及市场动态，确保战略规划的前瞻性与个性化",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ],
+            "ServiceContentTitle": "服务内容",
+            "ServiceContentBriefIntroduction": "依托深度的环境分析、行业洞察与企业理解，我们帮助企业在剧烈变动的社会经济环境中制定最优发展战略，并围绕战略实现为企业进行业务与职能规划。",
+            "ServiceValuePropositionTitle": "科智咨询的独到支持",
+            "ServiceValuePropositionBriefIntroduction": null,
+            "createdAt": "2025-09-18T06:39:05.113Z",
+            "updatedAt": "2025-09-18T06:39:08.228Z",
+            "publishedAt": "2025-09-18T06:39:08.360Z",
+            "channelDescription": null,
+            "channelBanner": {
+                "id": 13,
+                "documentId": "cvgos85g6b26z9hkuaqv4uip",
+                "name": "918242651931672576.png",
+                "alternativeText": null,
+                "caption": null,
+                "width": 1920,
+                "height": 350,
+                "formats": {
+                    "large": {
+                        "ext": ".png",
+                        "url": "https://energized-dawn-75ac41de31.media.strapiapp.com/large_918242651931672576_d52391f385.png",
+                        "hash": "large_918242651931672576_d52391f385",
+                        "mime": "image/png",
+                        "name": "large_918242651931672576.png",
+                        "path": null,
+                        "size": 347.7,
+                        "width": 1000,
+                        "height": 182,
+                        "sizeInBytes": 347697
+                    },
+                    "small": {
+                        "ext": ".png",
+                        "url": "https://energized-dawn-75ac41de31.media.strapiapp.com/small_918242651931672576_d52391f385.png",
+                        "hash": "small_918242651931672576_d52391f385",
+                        "mime": "image/png",
+                        "name": "small_918242651931672576.png",
+                        "path": null,
+                        "size": 90.52,
+                        "width": 500,
+                        "height": 91,
+                        "sizeInBytes": 90516
+                    },
+                    "medium": {
+                        "ext": ".png",
+                        "url": "https://energized-dawn-75ac41de31.media.strapiapp.com/medium_918242651931672576_d52391f385.png",
+                        "hash": "medium_918242651931672576_d52391f385",
+                        "mime": "image/png",
+                        "name": "medium_918242651931672576.png",
+                        "path": null,
+                        "size": 200.17,
+                        "width": 750,
+                        "height": 137,
+                        "sizeInBytes": 200170
+                    },
+                    "thumbnail": {
+                        "ext": ".png",
+                        "url": "https://energized-dawn-75ac41de31.media.strapiapp.com/thumbnail_918242651931672576_d52391f385.png",
+                        "hash": "thumbnail_918242651931672576_d52391f385",
+                        "mime": "image/png",
+                        "name": "thumbnail_918242651931672576.png",
+                        "path": null,
+                        "size": 23.05,
+                        "width": 245,
+                        "height": 45,
+                        "sizeInBytes": 23045
+                    }
+                },
+                "hash": "918242651931672576_d52391f385",
+                "ext": ".png",
+                "mime": "image/png",
+                "size": 339.06,
+                "url": "https://energized-dawn-75ac41de31.media.strapiapp.com/918242651931672576_d52391f385.png",
+                "previewUrl": null,
+                "provider": "strapi-provider-upload-strapi-cloud",
+                "provider_metadata": null,
+                "createdAt": "2025-09-17T09:49:11.323Z",
+                "updatedAt": "2025-09-18T06:44:56.503Z",
+                "publishedAt": "2025-09-17T09:49:11.323Z"
+            },
+            "ServiceIntroductionImage": {
+                "id": 12,
+                "documentId": "zjpoguls8e9eq1vaq4nsbg42",
+                "name": "953246970422493184.jpg",
+                "alternativeText": null,
+                "caption": null,
+                "width": 4800,
+                "height": 2700,
+                "formats": {
+                    "large": {
+                        "ext": ".jpg",
+                        "url": "https://energized-dawn-75ac41de31.media.strapiapp.com/large_953246970422493184_44462f5846.jpg",
+                        "hash": "large_953246970422493184_44462f5846",
+                        "mime": "image/jpeg",
+                        "name": "large_953246970422493184.jpg",
+                        "path": null,
+                        "size": 57.42,
+                        "width": 1000,
+                        "height": 563,
+                        "sizeInBytes": 57421
+                    },
+                    "small": {
+                        "ext": ".jpg",
+                        "url": "https://energized-dawn-75ac41de31.media.strapiapp.com/small_953246970422493184_44462f5846.jpg",
+                        "hash": "small_953246970422493184_44462f5846",
+                        "mime": "image/jpeg",
+                        "name": "small_953246970422493184.jpg",
+                        "path": null,
+                        "size": 18.42,
+                        "width": 500,
+                        "height": 281,
+                        "sizeInBytes": 18419
+                    },
+                    "medium": {
+                        "ext": ".jpg",
+                        "url": "https://energized-dawn-75ac41de31.media.strapiapp.com/medium_953246970422493184_44462f5846.jpg",
+                        "hash": "medium_953246970422493184_44462f5846",
+                        "mime": "image/jpeg",
+                        "name": "medium_953246970422493184.jpg",
+                        "path": null,
+                        "size": 35.74,
+                        "width": 750,
+                        "height": 422,
+                        "sizeInBytes": 35741
+                    },
+                    "thumbnail": {
+                        "ext": ".jpg",
+                        "url": "https://energized-dawn-75ac41de31.media.strapiapp.com/thumbnail_953246970422493184_44462f5846.jpg",
+                        "hash": "thumbnail_953246970422493184_44462f5846",
+                        "mime": "image/jpeg",
+                        "name": "thumbnail_953246970422493184.jpg",
+                        "path": null,
+                        "size": 5.98,
+                        "width": 245,
+                        "height": 138,
+                        "sizeInBytes": 5978
+                    }
+                },
+                "hash": "953246970422493184_44462f5846",
+                "ext": ".jpg",
+                "mime": "image/jpeg",
+                "size": 716.52,
+                "url": "https://energized-dawn-75ac41de31.media.strapiapp.com/953246970422493184_44462f5846.jpg",
+                "previewUrl": null,
+                "provider": "strapi-provider-upload-strapi-cloud",
+                "provider_metadata": null,
+                "createdAt": "2025-09-17T09:49:11.059Z",
+                "updatedAt": "2025-09-17T09:49:11.059Z",
+                "publishedAt": "2025-09-17T09:49:11.060Z"
+            },
+            "ServiceContentComponents": [
+                {
+                    "id": 31,
+                    "Title": "宏观环境分析",
+                    "Description": "对企业所处的宏观环境进行全面分析，帮助把握外部环境的机遇与威胁。"
+                },
+                {
+                    "id": 32,
+                    "Title": "行业环境与竞争格局分析",
+                    "Description": "深入分析行业趋势、市场结构、竞争对手情况，明确企业的市场定位和发展空间。"
+                },
+                {
+                    "id": 33,
+                    "Title": "内部资源和能力分析",
+                    "Description": "评估企业的内部资源和能力，识别企业的核心竞争力和潜在增长点。"
+                },
+                {
+                    "id": 34,
+                    "Title": "发展战略与核心竞争力设计",
+                    "Description": "构建企业核心竞争力，制定企业长期发展的总体规划和方向性决策。"
+                },
+                {
+                    "id": 35,
+                    "Title": "业务战略规划设计",
+                    "Description": "针对特定业务领域制定详细的发展策略，以支持企业整体战略目标的实现。"
+                },
+                {
+                    "id": 36,
+                    "Title": "职能战略规划设计",
+                    "Description": "为各职能部门制定具体的行动计划，确保企业整体战略在各层面得到有效执行。"
+                }
+            ],
+            "ServiceValuePropositionComponents": [
+                {
+                    "id": 22,
+                    "Title": "灵活应变与持续支持",
+                    "Description": "科智始终保持与企业的紧密联系，随时准备根据最新情况调整规划，并提供持续性支持和指导。"
+                },
+                {
+                    "id": 23,
+                    "Title": "跨领域整合",
+                    "Description": "科智专家具备跨领域的知识和技能，为客户提供综合性战略规划服务。"
+                },
+                {
+                    "id": 24,
+                    "Title": "创新推动",
+                    "Description": "科智鼓励企业创新，帮助客户在产品、技术、管理等方面实现突破。"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "documentId": "k6btmeevrlu6ki3j5y1gxmkb",
+            "channelName": "技术商业化",
+            "ServiceIntroductionTitle": "智驭变革，策动未来",
+            "ServiceIntroductionContent": [
+                {
+                    "type": "paragraph",
+                    "children": [
+                        {
+                            "text": "战略规划是组织或企业为实现其长期目标而制定的长远计划和行动方案，在企业发展中扮演着至关重要的角色，对明确企业发展方向、凝聚内部共识、应对市场挑战、优化资源配置以及提升竞争力等方面都具有重要意义。",
+                            "type": "text"
+                        }
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "children": [
+                        {
+                            "text": "在技术创新加速迭代与市场环境瞬息万变的当下，企业若仍局限于单一、浅层的分析框架来构建战略规划，势必难以在激烈的市场竞争中脱颖而出。",
+                            "type": "text"
+                        }
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "children": [
+                        {
+                            "text": "科智咨询采用创新方法论定制化构建战略分析工具，结合详尽的财务指标分析与宏观经济数据洞察，全面评估企业的独特资源禀赋、规模优势、业务布局、资本结构及市场动态，确保战略规划的前瞻性与个性化",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ],
+            "ServiceContentTitle": "服务内容",
+            "ServiceContentBriefIntroduction": "依托深度的环境分析、行业洞察与企业理解，我们帮助企业在剧烈变动的社会经济环境中制定最优发展战略，并围绕战略实现为企业进行业务与职能规划。",
+            "ServiceValuePropositionTitle": "科智咨询的独到支持",
+            "ServiceValuePropositionBriefIntroduction": null,
+            "createdAt": "2025-09-18T06:39:17.614Z",
+            "updatedAt": "2025-09-18T06:39:20.922Z",
+            "publishedAt": "2025-09-18T06:39:21.014Z",
+            "channelDescription": null,
+            "channelBanner": {
+                "id": 13,
+                "documentId": "cvgos85g6b26z9hkuaqv4uip",
+                "name": "918242651931672576.png",
+                "alternativeText": null,
+                "caption": null,
+                "width": 1920,
+                "height": 350,
+                "formats": {
+                    "large": {
+                        "ext": ".png",
+                        "url": "https://energized-dawn-75ac41de31.media.strapiapp.com/large_918242651931672576_d52391f385.png",
+                        "hash": "large_918242651931672576_d52391f385",
+                        "mime": "image/png",
+                        "name": "large_918242651931672576.png",
+                        "path": null,
+                        "size": 347.7,
+                        "width": 1000,
+                        "height": 182,
+                        "sizeInBytes": 347697
+                    },
+                    "small": {
+                        "ext": ".png",
+                        "url": "https://energized-dawn-75ac41de31.media.strapiapp.com/small_918242651931672576_d52391f385.png",
+                        "hash": "small_918242651931672576_d52391f385",
+                        "mime": "image/png",
+                        "name": "small_918242651931672576.png",
+                        "path": null,
+                        "size": 90.52,
+                        "width": 500,
+                        "height": 91,
+                        "sizeInBytes": 90516
+                    },
+                    "medium": {
+                        "ext": ".png",
+                        "url": "https://energized-dawn-75ac41de31.media.strapiapp.com/medium_918242651931672576_d52391f385.png",
+                        "hash": "medium_918242651931672576_d52391f385",
+                        "mime": "image/png",
+                        "name": "medium_918242651931672576.png",
+                        "path": null,
+                        "size": 200.17,
+                        "width": 750,
+                        "height": 137,
+                        "sizeInBytes": 200170
+                    },
+                    "thumbnail": {
+                        "ext": ".png",
+                        "url": "https://energized-dawn-75ac41de31.media.strapiapp.com/thumbnail_918242651931672576_d52391f385.png",
+                        "hash": "thumbnail_918242651931672576_d52391f385",
+                        "mime": "image/png",
+                        "name": "thumbnail_918242651931672576.png",
+                        "path": null,
+                        "size": 23.05,
+                        "width": 245,
+                        "height": 45,
+                        "sizeInBytes": 23045
+                    }
+                },
+                "hash": "918242651931672576_d52391f385",
+                "ext": ".png",
+                "mime": "image/png",
+                "size": 339.06,
+                "url": "https://energized-dawn-75ac41de31.media.strapiapp.com/918242651931672576_d52391f385.png",
+                "previewUrl": null,
+                "provider": "strapi-provider-upload-strapi-cloud",
+                "provider_metadata": null,
+                "createdAt": "2025-09-17T09:49:11.323Z",
+                "updatedAt": "2025-09-18T06:44:56.503Z",
+                "publishedAt": "2025-09-17T09:49:11.323Z"
+            },
+            "ServiceIntroductionImage": {
+                "id": 12,
+                "documentId": "zjpoguls8e9eq1vaq4nsbg42",
+                "name": "953246970422493184.jpg",
+                "alternativeText": null,
+                "caption": null,
+                "width": 4800,
+                "height": 2700,
+                "formats": {
+                    "large": {
+                        "ext": ".jpg",
+                        "url": "https://energized-dawn-75ac41de31.media.strapiapp.com/large_953246970422493184_44462f5846.jpg",
+                        "hash": "large_953246970422493184_44462f5846",
+                        "mime": "image/jpeg",
+                        "name": "large_953246970422493184.jpg",
+                        "path": null,
+                        "size": 57.42,
+                        "width": 1000,
+                        "height": 563,
+                        "sizeInBytes": 57421
+                    },
+                    "small": {
+                        "ext": ".jpg",
+                        "url": "https://energized-dawn-75ac41de31.media.strapiapp.com/small_953246970422493184_44462f5846.jpg",
+                        "hash": "small_953246970422493184_44462f5846",
+                        "mime": "image/jpeg",
+                        "name": "small_953246970422493184.jpg",
+                        "path": null,
+                        "size": 18.42,
+                        "width": 500,
+                        "height": 281,
+                        "sizeInBytes": 18419
+                    },
+                    "medium": {
+                        "ext": ".jpg",
+                        "url": "https://energized-dawn-75ac41de31.media.strapiapp.com/medium_953246970422493184_44462f5846.jpg",
+                        "hash": "medium_953246970422493184_44462f5846",
+                        "mime": "image/jpeg",
+                        "name": "medium_953246970422493184.jpg",
+                        "path": null,
+                        "size": 35.74,
+                        "width": 750,
+                        "height": 422,
+                        "sizeInBytes": 35741
+                    },
+                    "thumbnail": {
+                        "ext": ".jpg",
+                        "url": "https://energized-dawn-75ac41de31.media.strapiapp.com/thumbnail_953246970422493184_44462f5846.jpg",
+                        "hash": "thumbnail_953246970422493184_44462f5846",
+                        "mime": "image/jpeg",
+                        "name": "thumbnail_953246970422493184.jpg",
+                        "path": null,
+                        "size": 5.98,
+                        "width": 245,
+                        "height": 138,
+                        "sizeInBytes": 5978
+                    }
+                },
+                "hash": "953246970422493184_44462f5846",
+                "ext": ".jpg",
+                "mime": "image/jpeg",
+                "size": 716.52,
+                "url": "https://energized-dawn-75ac41de31.media.strapiapp.com/953246970422493184_44462f5846.jpg",
+                "previewUrl": null,
+                "provider": "strapi-provider-upload-strapi-cloud",
+                "provider_metadata": null,
+                "createdAt": "2025-09-17T09:49:11.059Z",
+                "updatedAt": "2025-09-17T09:49:11.059Z",
+                "publishedAt": "2025-09-17T09:49:11.060Z"
+            },
+            "ServiceContentComponents": [
+                {
+                    "id": 43,
+                    "Title": "宏观环境分析",
+                    "Description": "对企业所处的宏观环境进行全面分析，帮助把握外部环境的机遇与威胁。"
+                },
+                {
+                    "id": 44,
+                    "Title": "行业环境与竞争格局分析",
+                    "Description": "深入分析行业趋势、市场结构、竞争对手情况，明确企业的市场定位和发展空间。"
+                },
+                {
+                    "id": 45,
+                    "Title": "内部资源和能力分析",
+                    "Description": "评估企业的内部资源和能力，识别企业的核心竞争力和潜在增长点。"
+                },
+                {
+                    "id": 46,
+                    "Title": "发展战略与核心竞争力设计",
+                    "Description": "构建企业核心竞争力，制定企业长期发展的总体规划和方向性决策。"
+                },
+                {
+                    "id": 47,
+                    "Title": "业务战略规划设计",
+                    "Description": "针对特定业务领域制定详细的发展策略，以支持企业整体战略目标的实现。"
+                },
+                {
+                    "id": 48,
+                    "Title": "职能战略规划设计",
+                    "Description": "为各职能部门制定具体的行动计划，确保企业整体战略在各层面得到有效执行。"
+                }
+            ],
+            "ServiceValuePropositionComponents": [
+                {
+                    "id": 28,
+                    "Title": "灵活应变与持续支持",
+                    "Description": "科智始终保持与企业的紧密联系，随时准备根据最新情况调整规划，并提供持续性支持和指导。"
+                },
+                {
+                    "id": 29,
+                    "Title": "跨领域整合",
+                    "Description": "科智专家具备跨领域的知识和技能，为客户提供综合性战略规划服务。"
+                },
+                {
+                    "id": 30,
+                    "Title": "创新推动",
+                    "Description": "科智鼓励企业创新，帮助客户在产品、技术、管理等方面实现突破。"
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "documentId": "j154zf3ur8945p2koli5g5pp",
+            "channelName": "区域产业规划",
+            "ServiceIntroductionTitle": "智驭变革，策动未来",
+            "ServiceIntroductionContent": [
+                {
+                    "type": "paragraph",
+                    "children": [
+                        {
+                            "text": "战略规划是组织或企业为实现其长期目标而制定的长远计划和行动方案，在企业发展中扮演着至关重要的角色，对明确企业发展方向、凝聚内部共识、应对市场挑战、优化资源配置以及提升竞争力等方面都具有重要意义。",
+                            "type": "text"
+                        }
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "children": [
+                        {
+                            "text": "在技术创新加速迭代与市场环境瞬息万变的当下，企业若仍局限于单一、浅层的分析框架来构建战略规划，势必难以在激烈的市场竞争中脱颖而出。",
+                            "type": "text"
+                        }
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "children": [
+                        {
+                            "text": "科智咨询采用创新方法论定制化构建战略分析工具，结合详尽的财务指标分析与宏观经济数据洞察，全面评估企业的独特资源禀赋、规模优势、业务布局、资本结构及市场动态，确保战略规划的前瞻性与个性化",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ],
+            "ServiceContentTitle": "服务内容",
+            "ServiceContentBriefIntroduction": "依托深度的环境分析、行业洞察与企业理解，我们帮助企业在剧烈变动的社会经济环境中制定最优发展战略，并围绕战略实现为企业进行业务与职能规划。",
+            "ServiceValuePropositionTitle": "科智咨询的独到支持",
+            "ServiceValuePropositionBriefIntroduction": null,
+            "createdAt": "2025-09-18T06:39:27.693Z",
+            "updatedAt": "2025-09-18T06:39:31.328Z",
+            "publishedAt": "2025-09-18T06:39:31.450Z",
+            "channelDescription": null,
+            "channelBanner": {
+                "id": 13,
+                "documentId": "cvgos85g6b26z9hkuaqv4uip",
+                "name": "918242651931672576.png",
+                "alternativeText": null,
+                "caption": null,
+                "width": 1920,
+                "height": 350,
+                "formats": {
+                    "large": {
+                        "ext": ".png",
+                        "url": "https://energized-dawn-75ac41de31.media.strapiapp.com/large_918242651931672576_d52391f385.png",
+                        "hash": "large_918242651931672576_d52391f385",
+                        "mime": "image/png",
+                        "name": "large_918242651931672576.png",
+                        "path": null,
+                        "size": 347.7,
+                        "width": 1000,
+                        "height": 182,
+                        "sizeInBytes": 347697
+                    },
+                    "small": {
+                        "ext": ".png",
+                        "url": "https://energized-dawn-75ac41de31.media.strapiapp.com/small_918242651931672576_d52391f385.png",
+                        "hash": "small_918242651931672576_d52391f385",
+                        "mime": "image/png",
+                        "name": "small_918242651931672576.png",
+                        "path": null,
+                        "size": 90.52,
+                        "width": 500,
+                        "height": 91,
+                        "sizeInBytes": 90516
+                    },
+                    "medium": {
+                        "ext": ".png",
+                        "url": "https://energized-dawn-75ac41de31.media.strapiapp.com/medium_918242651931672576_d52391f385.png",
+                        "hash": "medium_918242651931672576_d52391f385",
+                        "mime": "image/png",
+                        "name": "medium_918242651931672576.png",
+                        "path": null,
+                        "size": 200.17,
+                        "width": 750,
+                        "height": 137,
+                        "sizeInBytes": 200170
+                    },
+                    "thumbnail": {
+                        "ext": ".png",
+                        "url": "https://energized-dawn-75ac41de31.media.strapiapp.com/thumbnail_918242651931672576_d52391f385.png",
+                        "hash": "thumbnail_918242651931672576_d52391f385",
+                        "mime": "image/png",
+                        "name": "thumbnail_918242651931672576.png",
+                        "path": null,
+                        "size": 23.05,
+                        "width": 245,
+                        "height": 45,
+                        "sizeInBytes": 23045
+                    }
+                },
+                "hash": "918242651931672576_d52391f385",
+                "ext": ".png",
+                "mime": "image/png",
+                "size": 339.06,
+                "url": "https://energized-dawn-75ac41de31.media.strapiapp.com/918242651931672576_d52391f385.png",
+                "previewUrl": null,
+                "provider": "strapi-provider-upload-strapi-cloud",
+                "provider_metadata": null,
+                "createdAt": "2025-09-17T09:49:11.323Z",
+                "updatedAt": "2025-09-18T06:44:56.503Z",
+                "publishedAt": "2025-09-17T09:49:11.323Z"
+            },
+            "ServiceIntroductionImage": {
+                "id": 12,
+                "documentId": "zjpoguls8e9eq1vaq4nsbg42",
+                "name": "953246970422493184.jpg",
+                "alternativeText": null,
+                "caption": null,
+                "width": 4800,
+                "height": 2700,
+                "formats": {
+                    "large": {
+                        "ext": ".jpg",
+                        "url": "https://energized-dawn-75ac41de31.media.strapiapp.com/large_953246970422493184_44462f5846.jpg",
+                        "hash": "large_953246970422493184_44462f5846",
+                        "mime": "image/jpeg",
+                        "name": "large_953246970422493184.jpg",
+                        "path": null,
+                        "size": 57.42,
+                        "width": 1000,
+                        "height": 563,
+                        "sizeInBytes": 57421
+                    },
+                    "small": {
+                        "ext": ".jpg",
+                        "url": "https://energized-dawn-75ac41de31.media.strapiapp.com/small_953246970422493184_44462f5846.jpg",
+                        "hash": "small_953246970422493184_44462f5846",
+                        "mime": "image/jpeg",
+                        "name": "small_953246970422493184.jpg",
+                        "path": null,
+                        "size": 18.42,
+                        "width": 500,
+                        "height": 281,
+                        "sizeInBytes": 18419
+                    },
+                    "medium": {
+                        "ext": ".jpg",
+                        "url": "https://energized-dawn-75ac41de31.media.strapiapp.com/medium_953246970422493184_44462f5846.jpg",
+                        "hash": "medium_953246970422493184_44462f5846",
+                        "mime": "image/jpeg",
+                        "name": "medium_953246970422493184.jpg",
+                        "path": null,
+                        "size": 35.74,
+                        "width": 750,
+                        "height": 422,
+                        "sizeInBytes": 35741
+                    },
+                    "thumbnail": {
+                        "ext": ".jpg",
+                        "url": "https://energized-dawn-75ac41de31.media.strapiapp.com/thumbnail_953246970422493184_44462f5846.jpg",
+                        "hash": "thumbnail_953246970422493184_44462f5846",
+                        "mime": "image/jpeg",
+                        "name": "thumbnail_953246970422493184.jpg",
+                        "path": null,
+                        "size": 5.98,
+                        "width": 245,
+                        "height": 138,
+                        "sizeInBytes": 5978
+                    }
+                },
+                "hash": "953246970422493184_44462f5846",
+                "ext": ".jpg",
+                "mime": "image/jpeg",
+                "size": 716.52,
+                "url": "https://energized-dawn-75ac41de31.media.strapiapp.com/953246970422493184_44462f5846.jpg",
+                "previewUrl": null,
+                "provider": "strapi-provider-upload-strapi-cloud",
+                "provider_metadata": null,
+                "createdAt": "2025-09-17T09:49:11.059Z",
+                "updatedAt": "2025-09-17T09:49:11.059Z",
+                "publishedAt": "2025-09-17T09:49:11.060Z"
+            },
+            "ServiceContentComponents": [
+                {
+                    "id": 55,
+                    "Title": "宏观环境分析",
+                    "Description": "对企业所处的宏观环境进行全面分析，帮助把握外部环境的机遇与威胁。"
+                },
+                {
+                    "id": 56,
+                    "Title": "行业环境与竞争格局分析",
+                    "Description": "深入分析行业趋势、市场结构、竞争对手情况，明确企业的市场定位和发展空间。"
+                },
+                {
+                    "id": 57,
+                    "Title": "内部资源和能力分析",
+                    "Description": "评估企业的内部资源和能力，识别企业的核心竞争力和潜在增长点。"
+                },
+                {
+                    "id": 58,
+                    "Title": "发展战略与核心竞争力设计",
+                    "Description": "构建企业核心竞争力，制定企业长期发展的总体规划和方向性决策。"
+                },
+                {
+                    "id": 59,
+                    "Title": "业务战略规划设计",
+                    "Description": "针对特定业务领域制定详细的发展策略，以支持企业整体战略目标的实现。"
+                },
+                {
+                    "id": 60,
+                    "Title": "职能战略规划设计",
+                    "Description": "为各职能部门制定具体的行动计划，确保企业整体战略在各层面得到有效执行。"
+                }
+            ],
+            "ServiceValuePropositionComponents": [
+                {
+                    "id": 34,
+                    "Title": "灵活应变与持续支持",
+                    "Description": "科智始终保持与企业的紧密联系，随时准备根据最新情况调整规划，并提供持续性支持和指导。"
+                },
+                {
+                    "id": 35,
+                    "Title": "跨领域整合",
+                    "Description": "科智专家具备跨领域的知识和技能，为客户提供综合性战略规划服务。"
+                },
+                {
+                    "id": 36,
+                    "Title": "创新推动",
+                    "Description": "科智鼓励企业创新，帮助客户在产品、技术、管理等方面实现突破。"
+                }
+            ]
+        }
+    ],
+    "meta": {
+        "pagination": {
+            "page": 1,
+            "pageSize": 25,
+            "pageCount": 1,
+            "total": 5
+        }
+    }
+}

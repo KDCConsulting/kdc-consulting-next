@@ -1,0 +1,148 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.flex{
+    display: flex;
+}
+.qiuzhi{
+    align-items: center;
+justify-content: space-between;
+box-sizing: border-box;
+padding: 0 20px;
+width: 100%;
+max-width: 1200px;
+margin: 0 auto;
+}
+
+.qiuzhi img {
+    width: 449px;
+    height: 240px;
+    display: block;
+  }
+  .qiuzhi p{
+    width: 544px;
+        font-size: 16px;
+        font-family: "SourceHanSansCN";
+        color: rgb(7, 28, 47);
+        line-height: 36px;
+        text-align: left;
+      
+  }
+  .qiuzhi h4{
+        font-size: 42px;
+        font-family: "SourceHanSansCN";
+        color: rgb(7, 28, 47);
+        line-height: 50px;
+        text-align: left;
+      font-weight: 400;
+      margin-bottom: 50px;
+  }
+
+  .qiuzhiBox{
+    padding: 50px 0;
+    margin: 0 auto!important ;
+  }
+  .qiuzhiBox.right{
+    background-color: #f5f5f5;
+  }
+  .toudi{
+    margin-top: 60px;
+  }
+
+  .cmp-container .cmp-title__text {
+    font-size: 36px;
+    font-family: "SourceHanSansCN";
+    color: rgb(7, 28, 47);
+    line-height: 40px;
+    text-align: left;
+    font-weight: 400;
+  }
+  .icon-card .cmp-teaser__content{
+        background-color: rgb(246, 246, 246);
+        width: 366px;
+        height: 200px;
+       border-top: 4px solid   rgb(0, 145, 255);
+       box-shadow: none;
+       padding: 15px 25px;
+  }
+  .icon-card .cmp-teaser__title{
+        font-size: 24px;
+        font-family: "SourceHanSansCN";
+        color: rgb(7, 28, 47);
+        font-weight: bold;
+        line-height: 1.417;
+        text-align: left;
+      
+  }.cmp-teaser__description p{
+   
+        font-size: 16px;
+        font-family: "SourceHanSansCN";
+        color: rgb(7, 28, 47);
+        line-height: 1.2;
+      
+  }
+  .cmp-teaser__description p span{
+   display: inline-block;
+   content: '|';
+   margin: 15px;
+ color:  rgb(216, 216, 216);
+  /* border: 1px solid rgb(216, 216, 216); */
+  width: 1px;
+}
+
+.cmp-teaser__action-link:after{
+  content: "";
+  width: 20px;
+  height: 12px;
+  background: url(./images/arrow_blue.png) no-repeat center left;
+  background-size: 100%;
+  margin-top: -5px;
+}
+.cmp-teaser__action-link,.cmp-teaser__action-link:hover{
+  font-size: 20px;
+  font-family: "SourceHanSansCN";
+  color: rgb(0, 145, 255);
+  font-weight: 400;
+}
+
+
+.banner{
+  background-image: url(./images/banner_qiuzhi.png);
+}
+
+.banner h2{
+padding-left: 120px;
+color: #071c2f;
+}
+
+.jieshao{
+
+}
+.jieshao p{
+  width: 100%;
+}
+
+.jieshao .flex{
+}
+.jieshao .joinbg{
+  background: url(./images/joinbg1.png) no-repeat center;
+box-sizing: border-box;
+padding: 20px 80px;
+height: 262px;
+width: 1208px;
+}
+
+.jieshao h2{
+    font-size: 42px;
+    font-family: "SourceHanSansCN";
+    color: rgb(7, 28, 47);
+    line-height: 1.2;
+    text-align: center;
+  font-weight: 400;
+  padding: 35px;
+}
+
+.ui-vs-bottom--md{
+  padding-top: 0 !important;
+}

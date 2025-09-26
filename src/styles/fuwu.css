@@ -1,0 +1,574 @@
+.mainIntr {
+    background-color: #fff;
+    margin: 60px auto;
+}
+
+.mainIntr .flex {
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* 动态服务组件样式 */
+.banner-content {
+    position: relative;
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+}
+
+.banner-image {
+    width: 100%;
+    height: 100%;
+}
+
+.banner-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(45deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-text {
+    text-align: center;
+    color: white;
+    max-width: 800px;
+    padding: 0 20px;
+}
+
+.banner-title {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    line-height: 1.2;
+}
+
+.banner-description {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    opacity: 0.9;
+}
+
+.value-proposition-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.value-prop-item {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.value-prop-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+}
+
+.value-prop-item h3 {
+    color: #0091ff;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.value-prop-item p {
+    color: #666;
+    line-height: 1.6;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+    .banner-title {
+        font-size: 2rem;
+    }
+    
+    .banner-description {
+        font-size: 1rem;
+    }
+    
+    .value-proposition-grid {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    
+    .value-prop-item {
+        padding: 1.5rem;
+    }
+}
+
+.banner.hangye {
+    /* height: 570px; */
+    /* background-size: auto 570px; */
+    box-sizing: border-box;
+    /* padding-top: 220px; */
+    background-image: url(./images/Bannerhangye.png);
+}
+
+.banner p {
+    color: rgb(7, 28, 47);
+}
+
+.banner.hangye p {
+    color: #fff;
+    line-height: 1.6;
+}
+
+.banner.hangye h2 {
+    color: #fff;
+}
+
+.mainIntr p {
+    font-size: 16px;
+    font-family: "SourceHanSansCN";
+    color: rgb(7, 28, 47);
+    line-height: 2;
+    top: 568.546px;
+    width: 662px;
+    margin-bottom: 10px;
+}
+
+.mainIntr h2 {
+    /* padding-top: 60px; */
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 42px;
+    font-family: "SourceHanSansCN";
+    color: rgb(7, 28, 47);
+    /* line-height: 1.2; */
+    -moz-transform: matrix(1.00000005960465, 0, 0, 0.99999953839273, 0, 0);
+    -webkit-transform: matrix(1.00000005960465, 0, 0, 0.99999953839273, 0, 0);
+    -ms-transform: matrix(1.00000005960465, 0, 0, 0.99999953839273, 0, 0);
+    line-height: 64px;
+}
+
+.mainIntr .flex img {
+    width: 414px;
+    height: 276px;
+}
+
+.cmp-teaser {
+    background: no-repeat center right url(./images/yxzx-bg1.png);
+    background-size: auto 100%;
+    padding: 0 !important;
+    margin-right: 14px;
+    margin-bottom: 15px;
+    margin-top: 0;
+    /* width: 30% !important; */
+}
+
+.teaser:nth-child(3n) {
+    margin-right: 0;
+}
+
+.teaser .cmp-teaser__content {
+    padding: 28px 0 !important;
+    box-shadow: none;
+    margin: 0;
+    border-width: 1px;
+    border-color: rgb(216, 216, 216);
+    border-style: solid;
+    border-radius: 6px;
+    background-color: transparent;
+    /* width: 382px;
+    height: 166px; */
+}
+
+.teaser .cmp-teaser__content a span:first-child,
+.teaser .cmp-teaser__content .cmp-teaser__description {
+    padding: 0 30px;
+}
+
+
+.teaser .cmp-teaser__title {
+
+    /* font-size: 20px; */
+
+    /* font-family: "SourceHanSansCN"; */
+
+    /* color: rgb(7, 28, 47); */
+
+    /* line-height: 34px; */
+
+    /* padding-left: 40px; */
+
+    /* text-align: left; */
+
+    /* background: no-repeat center left; */
+}
+
+.teaser:nth-child(1) .cmp-teaser__title:nth-child(1) {
+
+    /* background-image: url(./images/yxzx1.png); */
+}
+
+.teaser:nth-child(2) .cmp-teaser__title:nth-child(1) {
+    /* background-image: url(./images/yxzx2.png); */
+}
+
+.teaser:nth-child(3) .cmp-teaser__title:nth-child(1) {
+    /* background-image: url(./images/yxzx3.png); */
+}
+
+.teaser:nth-child(4) .cmp-teaser__title:nth-child(1) {
+    /* background-image: url(./images/yxzx4.png); */
+}
+
+.teaser:nth-child(5) .cmp-teaser__title:nth-child(1) {
+    /* background-image: url(./images/yxzx5.png); */
+}
+
+.teaser:nth-child(6) .cmp-teaser__title:nth-child(1) {
+    /* background-image: url(./images/yxzx6.png); */
+}
+
+.teaser:nth-child(7) .cmp-teaser__title:nth-child(1) {
+    /* background-image: url(./images/yxzx7.png); */
+}
+
+.teaser:nth-child(8) .cmp-teaser__title:nth-child(1) {
+    /* background-image: url(./images/yxzx8.png); */
+}
+
+.teaser p {
+    font-size: 14px;
+    font-family: "SourceHanSansCN";
+    color: rgb(109, 114, 120);
+    line-height: 18px;
+    height: 34px;
+
+}
+
+.newsList .teaser p {
+    height: auto;
+}
+
+.icon-card .cmp-teaser__description {
+    margin-bottom: 0;
+}
+
+.case .cmp-card-layout--3-cards .card,
+.cmp-card-layout--3-cards .cmp-imagetitlesummarylink-small-card {
+    max-width: 25%;
+}
+
+.case .dcc-imagefoldtag .cmp-teaser__image .cmp-image__link {
+    box-sizing: border-box;
+    padding: 10px;
+    width: 269px;
+    /* height: 269px; */
+    background-color: #f5f5f5;
+}
+
+.case .teaser .cmp-teaser__content {
+    border-radius: 0;
+    background-color: #f5f5f5;
+}
+
+.case .teaser .cmp-teaser__title {
+    padding-left: 0;
+    background: none !important;
+    -webkit-line-clamp: 100 !important;
+
+}
+
+.kzsj .teaser .cmp-teaser__title,
+.kzsj .teaser .cmp-teaser__title a {
+    padding-left: 0;
+    word-break: break-all;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+
+.kzsj .dcc .cmp-teaser__pretitle .cmp-teaser__pretitle-link {
+    color: rgb(7, 28, 47);
+
+}
+
+.kzsj .dcc-image-tag-title-summary .cmp-teaser__title a:hover,
+.kzsj .dcc-tag-title-small .cmp-teaser__title a:hover {
+
+    /* font-size: 24px;
+        font-family: "SourceHanSansCN"; */
+    color: rgb(0, 145, 255);
+    text-decoration: none;
+}
+
+/* .kzsj .teaser .cmp-teaser__content {
+    border: none;
+} */
+
+
+/* .kzsj .teaser .cmp-teaser__content {
+    padding: 0 !important;
+    /* padding-bottom: 25px !important; */
+/* margin-top: 20px;
+} */
+
+.cmp-text p {
+    text-align: left;
+}
+
+
+.ability .teaser .cmp-teaser__title {
+    padding-left: 0;
+    background: none !important;
+
+}
+
+.ziyuan {
+    width: 1200px;
+    margin-bottom: 60px;
+}
+
+.ziyuan .flexItem {
+    position: relative;
+    width: 33.3%;
+    text-align: center;
+
+}
+
+.ziyuan .flexItem::before {
+    content: '';
+    display: block;
+
+    border-radius: 50%;
+    background-color: rgb(246, 246, 246);
+    position: absolute;
+    left: 50%;
+    top: 0;
+    margin-left: -88px;
+    width: 176px;
+    height: 176px;
+    z-index: 1;
+}
+
+.ziyuan .flexItem h3,
+.ziyuan .flexItem p {
+    z-index: 2;
+
+    position: relative;
+}
+
+.ziyuan .flexItem h3 {
+    font-size: 40px;
+    font-family: "SourceHanSansCN";
+    color: rgb(153, 153, 153);
+    line-height: 56px;
+    text-align: center;
+    margin-top: 36px;
+    -moz-transform: matrix(1.34967128395303, 0, 0, 1.34967128395303, 0, 0);
+    -webkit-transform: matrix(1.34967128395303, 0, 0, 1.34967128395303, 0, 0);
+    -ms-transform: matrix(1.34967128395303, 0, 0, 1.34967128395303, 0, 0);
+}
+
+.ziyuan .flexItem h3 span {
+    font-size: 18px;
+    font-family: "SourceHanSansCN";
+    color: rgb(153, 153, 153);
+    /* line-height:80px; */
+    text-align: center;
+    /* margin-top: -10px; */
+    display: inline-block;
+    /* transform: translateY(-20px); */
+    line-height: 18px;
+}
+
+.ziyuan .flexItem p {
+    font-size: 20px;
+    font-family: "SourceHanSansCN";
+    color: rgb(7, 28, 47);
+    line-height: 40px;
+    text-align: center;
+}
+
+.banner {
+    background-image: url(./images/banner-zixun.png);
+}
+
+.banner h2 {
+    color: #071c2f;
+
+}
+
+.ui-vs-bottom--md {
+    padding-bottom: 0;
+}
+
+.cmp-container .cmp-title__text {
+    padding-top: 60px;
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 42px;
+    font-family: "SourceHanSansCN";
+    color: rgb(7, 28, 47);
+    /* line-height: 1.2; */
+    -moz-transform: matrix(1.00000005960465, 0, 0, 0.99999953839273, 0, 0);
+    -webkit-transform: matrix(1.00000005960465, 0, 0, 0.99999953839273, 0, 0);
+    -ms-transform: matrix(1.00000005960465, 0, 0, 0.99999953839273, 0, 0);
+
+
+}
+
+.cmp-container .cmp-text {
+    margin-bottom: 45px;
+    text-align: left;
+}
+
+.dcc-imagefoldtag .cmp-teaser__image {
+    /* padding: 10px; */
+}
+
+.newsList .dcc-imagefoldtag .cmp-teaser__content {
+    transition: none;
+}
+
+.newsList .dcc-imagefoldtag:hover .cmp-teaser__content {
+
+    /* box-shadow: 0px 2px 8px 0px rgba(168, 168, 168, 0.5); */
+    box-shadow: none;
+}
+
+.newsList .dcc-imagefoldtag .cmp-teaser {
+    transition: all .5s;
+
+}
+
+.newsList .dcc-imagefoldtag:hover .cmp-teaser {
+
+    box-shadow: 0px 2px 8px 0px rgba(168, 168, 168, 0.5);
+    /* box-shadow: none; */
+    transition: all .5s;
+}
+
+.newsList .dcc-imagefoldtag .cmp-teaser__content {
+    padding: 12px !important;
+    height: auto;
+}
+
+
+.dcc-image-tag-title-summary.has-ellipsis .cmp-teaser__title .cmp-teaser__title-link {
+    -webkit-line-clamp: 1;
+}
+
+.dcc-image-tag-title-summary.has-ellipsis .cmp-teaser__description {
+
+    -webkit-line-clamp: 1;
+}
+
+.ability .dcc-title-summary-arrow.has-ellipsis .cmp-teaser__title span:first-child {
+    word-break: break-all;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+
+.ability .dcc-title-summary-arrow.has-ellipsis .cmp-teaser__description {
+    word-break: break-all;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+
+.zxfw .cmp-teaser__title {
+    /* margin: 0 30px; */
+}
+
+
+.newsList .teaser .cmp-teaser__content .cmp-teaser__description {
+    padding: 0;
+}
+
+.newsList .dcc-imagefoldtag .cmp-teaser__title {
+    -webkit-line-clamp: 1;
+}
+
+.newsList p .cmp-text__paragraph-default {
+    -webkit-line-clamp: 100;
+}
+
+.kzsj .dcc-image-tag-title-summary.has-ellipsis .cmp-teaser__description {
+    -webkit-line-clamp: 1;
+
+}
+
+.kzsj .dcc-image-tag-title-summary.has-ellipsis .cmp-teaser__description p {
+    height: auto;
+}
+
+.zxfw .cmp-container .cmp-title__text {
+    margin-bottom: 0;
+}
+
+.area .cmp-text p,
+.area .jiazhi p {
+    line-height: 2;
+}
+
+.sjzxZy {
+    justify-content: space-between;
+    width: 1200px;
+    margin-top: 40px;
+}
+
+.sjzxZy .flex-item h4 {
+    font-size: 24px;
+    font-family: "SourceHanSansCN";
+    color: rgb(7, 28, 47);
+    font-weight: bold;
+    line-height: 28px;
+    text-align: center;
+    -moz-transform: matrix(1.00000000647657, 0, 0, 0.99999946355849, 0, 0);
+    -webkit-transform: matrix(1.00000000647657, 0, 0, 0.99999946355849, 0, 0);
+    -ms-transform: matrix(1.00000000647657, 0, 0, 0.99999946355849, 0, 0);
+    z-index: 2;
+    /* margin-top: 18px; */
+    position: relative;
+    margin-bottom: 18px;
+}
+
+.sjzxZy .flex-item p {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 7px 0px rgba(166, 166, 166, 0.3);
+    width: 344px;
+    height: 200px;
+    box-sizing: border-box;
+    padding: 30px;
+    position: relative;
+    font-size: 16px;
+    font-family: "SourceHanSansCN";
+    color: rgb(7, 28, 47);
+    line-height: 1.8;
+    text-align: left;
+}
+
+.cmp-container .fuwu-third-links{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-left: -30px;
+    margin-right: -30px;
+    max-width: calc(100% + 60px);
+}
+
+.cmp-container .fuwu-third-links .dcc-title-summary-arrow .cmp-teaser {
+    border: none;
+}

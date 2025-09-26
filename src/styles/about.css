@@ -1,0 +1,476 @@
+.container{
+    max-width: fit-content;
+}
+.jiazhiguan {
+    box-shadow: none !important;
+}
+
+.jiazhiguan h3 {
+    font-weight: 100;
+    margin-bottom: 35px;
+    font-family: "SourceHanSansCN";
+
+}
+
+.jiazhiguan .flex {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.jiazhiguan .flex .flex-item {
+    width: 100%;
+    margin-right: 18px;
+    box-sizing: border-box;
+    padding-top: 80px;
+    height: 148px;
+    text-align: center;
+    font-size: 32px;
+    font-family: "SourceHanSansCN";
+    color: rgb(7, 28, 47);
+    background: center no-repeat;
+    background-size: 100%;
+}
+
+.jiazhiguan .flex .flex-item:nth-child(1) {
+    background-image: url(./images/about1.png);
+}
+
+.jiazhiguan .flex .flex-item:nth-child(2) {
+    background-image: url(./images/about2.png);
+
+
+}
+
+.jiazhiguan .flex .flex-item:nth-child(3) {
+
+    background-image: url(./images/about3.png);
+
+
+}
+
+.jiazhiguan .flex .flex-item:nth-child(4) {
+    background-image: url(./images/about4.png);
+
+    margin-right: 0;
+
+}
+
+
+.kehu {
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.kehu h3,
+.jiazhiguan h3 {
+    font-weight: 500;
+    margin-bottom: 25px;
+    font-size: 42px;
+    font-family: "SourceHanSansCN";
+    color: rgb(7, 28, 47);
+    line-height: 1.2;
+    text-align: center;
+}
+
+.kehu .flex {
+    justify-content: start;
+    flex-wrap: wrap;
+    display: flex;
+
+}
+
+.kehu .flex .flex-item {
+    width: 15%;
+    margin-right: 2%;
+}
+
+.kehu .flex .flex-item:nth-child(6n) {
+    /* width: 15%; */
+    margin-right: 0%;
+}
+
+
+
+.tuandui {
+    margin-top: 80px;
+}
+
+.tuandui h3 {
+    font-weight: 500;
+    margin-bottom: 25px;
+    font-size: 42px;
+    font-family: "SourceHanSansCN";
+    color: rgb(7, 28, 47);
+    line-height: 1.2;
+    text-align: center;
+
+}
+
+.tuandui .flex {
+    justify-content: start;
+    flex-wrap: wrap;
+    display: flex;
+
+}
+
+.tuandui .flex .flex-item {
+    width: 32.6%;
+    margin-right: 1%;
+    height: auto;
+    position: relative;
+    padding-top: 60px;
+    margin-bottom: 40px;
+}
+
+.tuandui .flex .flex-item:nth-child(3n) {
+    /* width: 15%; */
+    margin-right: 0%;
+}
+
+.tuandui .flex .flex-item img {
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    left: 20px;
+    top: 0;
+    height: 120px;
+    width: 120px;
+    /* margin-left: 20px; */
+}
+
+.tuandui .flex .flex-item .intr {
+    background-color: rgba(240, 240, 240, 0.502);
+    box-sizing: border-box;
+    width: 100%;
+    padding: 75px 20px 10px;
+}
+
+.tuandui .flex .flex-item .intr h4 {
+
+    font-size: 24px;
+    font-family: "SourceHanSansCN";
+    color: rgb(7, 28, 47);
+    line-height: 28px;
+
+}
+
+.tuandui .flex .flex-item .intr h4 span {
+
+    font-size: 16px;
+    font-family: "SourceHanSansCN";
+    color: rgb(7, 28, 47);
+    display: inline-block;
+    margin-left: 10px;
+    line-height: 28px;
+}
+
+.tuandui .flex .flex-item .intr p {
+
+    font-size: 16px;
+    font-family: "SourceHanSansCN";
+    color: rgb(109, 114, 120);
+    line-height: 16px;
+    text-align: left;
+    margin: 5px 0;
+    font-weight: 700;
+}
+
+.tuandui .flex .flex-item .intr p span {
+    margin-right: 20px;
+}
+
+.bp-alert-cards__description {
+    text-align: center;
+    margin: 10px auto 50px;
+}
+
+.banner {
+    overflow: hidden;
+}
+
+.banner.about2 {
+    background-image: url(./images/banner-about2.png);
+}
+.banner.about2 p {
+    font-size: 16px;
+    font-family: "SourceHanSansCN";
+    color: rgb(255, 255, 255);
+    line-height: 24px;
+  }
+  
+.banner .root {
+    background-color: rgba(16, 100, 164, 0.2);
+    width: 1180px;
+    height: 162px;
+    margin-top: 80px;
+    padding: 20px 90px;
+    width: 1180px;
+    box-sizing: border-box;
+}
+
+.banner h2 {
+    padding: 0 !important;
+    color: #fff !important;
+    margin-bottom: 20px;
+}
+
+.bp-alert-cards__description {
+    opacity: 1 !important;
+    text-align: center;
+}
+
+.bp-data-stat--animate.cmp-bp-data-stat .cmp-bp-data-stat-card-list :first-child .cmp-bp-data-stat-card__title {
+    font-size: 74px;
+    font-family: "Arial";
+    color: rgb(7, 28, 47);
+    line-height: 1.2;
+    text-align: left;
+}
+
+.color-block-purple .cmp-bp-data-stat-gradient div {
+    background-color: #1d94e0;
+}
+
+.cmp-bp-data-stat .cmp-bp-data-stat-image-section .cmp-bp-data-stat-image img {
+    transform: none;
+}
+
+
+.cmp-bp-data-stat .cmp-bp-data-stat-image-section .cmp-bp-data-stat-gradient div {
+    -webkit-transform: skew(0deg, -22deg);
+    transform: skew(0deg, -22deg);
+
+}
+
+.cmp-bp-data-stat .cmp-bp-data-stat-image-section .cmp-bp-data-stat-gradient {
+    height: 60%;
+    margin-top: 20px;
+}
+
+.kehu .flex .flex-item img {
+    max-width: 100%;
+    max-height: 56px;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.dazao {
+    background: url(./images/aboutweitu.png) no-repeat center;
+    background-size: auto 210px;
+    height: 210px;
+    /* margin: 0; */
+}
+
+
+.aboutIntr {
+    margin: 65px auto;
+    width: 1200px;
+}
+
+.aboutIntr img {
+    min-width: 514px;
+    width: 514px;
+    /* height: 293px; */
+    display: block;
+    margin-right: 48px;
+}
+
+.aboutIntr .flex {
+
+    align-items: center;
+}
+
+
+.aboutIntr .flex h4 {
+
+    font-size: 42px;
+    font-family: "SourceHanSansCN";
+    color: rgb(7, 28, 47);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.aboutIntr .flex p {
+    font-size: 16px;
+    font-family: "SourceHanSansCN";
+    color: rgb(49, 51, 54);
+    line-height: 34px;
+    text-align: left;
+
+}
+
+.w1200 {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.aboutContent {
+    margin: 0 auto;
+    margin-bottom: 70px;
+}
+
+.aboutContent .flex {
+    justify-content: space-between;
+}
+
+.aboutContent .flex-item {
+
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 7px 0px rgba(166, 166, 166, 0.3);
+
+    width: 344px;
+    height: 200px;
+    box-sizing: border-box;
+    padding: 30px;
+    text-align: center;
+    position: relative;
+}
+
+.aboutContent .flex-item h4 {
+    font-size: 24px;
+    font-family: "SourceHanSansCN";
+    color: rgb(7, 28, 47);
+    font-weight: bold;
+    line-height: 28px;
+    text-align: center;
+    -moz-transform: matrix(1.00000000647657, 0, 0, 0.99999946355849, 0, 0);
+    -webkit-transform: matrix(1.00000000647657, 0, 0, 0.99999946355849, 0, 0);
+    -ms-transform: matrix(1.00000000647657, 0, 0, 0.99999946355849, 0, 0);
+    z-index: 2;
+
+    margin-top: 18px;
+    position: relative;
+}
+
+.aboutContent .flex-item span {
+    display: block;
+    margin-top: -20px;
+    font-size: 20px;
+    font-family: "SourceHanSansCN";
+    color: rgba(153, 153, 153, 0.11);
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    -moz-transform: matrix(1.00000000647657, 0, 0, 0.99999946355849, 0, 0);
+    -webkit-transform: matrix(1.00000000647657, 0, 0, 0.99999946355849, 0, 0);
+    -ms-transform: matrix(1.00000000647657, 0, 0, 0.99999946355849, 0, 0);
+    position: relative;
+    z-index: 1;
+    margin-bottom: 10px;
+}
+
+.aboutContent .flex-item p {
+    font-size: 16px;
+    font-family: "SourceHanSansCN";
+    color: rgb(7, 28, 47);
+    line-height: 37px;
+    text-align: center;
+    -moz-transform: matrix(1.00000000647657, 0, 0, 0.99999946355849, 0, 0);
+    -webkit-transform: matrix(1.00000000647657, 0, 0, 0.99999946355849, 0, 0);
+    -ms-transform: matrix(1.00000000647657, 0, 0, 0.99999946355849, 0, 0);
+
+    height: 44.839px;
+}
+
+
+.aboutContent .flex-item a {
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+
+
+    font-size: 20.658px;
+    font-family: "SourceHanSansCN";
+    color: rgb(0, 145, 255);
+    text-align: left;
+    -moz-transform: matrix(0.66883313626748, 0, 0, 0.6770177994029, 0, 0);
+    -webkit-transform: matrix(0.66883313626748, 0, 0, 0.6770177994029, 0, 0);
+    -ms-transform: matrix(0.66883313626748, 0, 0, 0.6770177994029, 0, 0);
+
+}
+
+.ourJob {
+    margin: 0 auto;
+    margin-bottom: 70px;
+}
+
+.ourJob .flex {
+    justify-content: space-between;
+}
+
+.ourJob h3 {
+
+    font-size: 42px;
+    font-family: "SourceHanSansCN";
+    color: rgb(7, 28, 47);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 48px;
+}
+
+.ourJob .flex-3 {
+    display: flex;
+    width: 746px;
+}
+
+.ourJob .flex-3 .flex-item {
+    width: 33.3%;
+}
+
+.ourJob .flex-3 h4 {
+
+    font-size: 22px;
+    font-family: "SourceHanSansCN";
+    color: rgb(7, 28, 47);
+    font-weight: bold;
+    line-height: 1.545;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.ourJob .flex-3 p {
+    font-size: 14px;
+    font-family: "SourceHanSansCN";
+    color: rgb(7, 28, 47);
+    line-height: 1.429;
+    text-align: left;
+    height: 14px;
+    margin-bottom: 15px;
+}
+
+.ourJob .flex-item a.cmp-teaser__action-link {
+
+  
+        font-size: 14px;
+        font-family: "SourceHanSansCN";
+        color: rgb(0, 145, 255);
+        line-height: 1.2;
+        text-align: left;
+        -moz-transform: matrix( 0.66956353341643,0,0,0.67592280766813,0,0);
+        -webkit-transform: matrix( 0.66956353341643,0,0,0.67592280766813,0,0);
+        -ms-transform: matrix( 0.66956353341643,0,0,0.67592280766813,0,0);
+      
+      
+}
+
+.cmp-container .cmp-title__text{
+        font-size: 54px;
+        font-family: "SourceHanSansCN";
+        color: rgb(7, 28, 47);
+        line-height: 1.2;
+        text-align: center;
+}
+.nlBox{
+    /* margin-top: -100px; */
+    margin-top: 20px;
+}
+
+.nlBox .cmp-bp-data-stat__second-row,.nlBox .cmp-bp-data-stat.parallax-block.color-block-purple{
+    padding-top: 0;
+}
