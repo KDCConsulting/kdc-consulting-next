@@ -29,10 +29,10 @@ const nextConfig: NextConfig = {
     NEXT_PUBLIC_REVALIDATE_TIME: '600', // 10分钟
   },
   
-  // 禁用服务器端功能
-  experimental: {
-    esmExternals: false,
-  },
+  // 禁用服务器端功能（移除 esmExternals 以支持 Turbopack）
+  // experimental: {
+  //   esmExternals: false,
+  // },
   
   // 暂时禁用动态路由以解决构建问题
   typescript: {
